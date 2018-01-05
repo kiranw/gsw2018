@@ -9,9 +9,10 @@
             <div class="location-header">26th March & 27th March (Day 1 & Day 2)</div>
             <div class="location-name"><a href="#">Conference venue</a></div>
             <div class="location-address">
-                <p>Av.</p>
-                <p>Bangkok,</p>
-                <p>Thailand</p>
+                <p>Centara Grand & Bangkok Convention Centre</p>
+                <p>999/99 Rama 1 Road,</p>
+                <p>Pathumwan,</p>
+                <p>Bangkok, Thailand</p>
             </div>
             <div class="location-map" id="location-1">
             </div>
@@ -20,9 +21,10 @@
             <div class="location-header">28th March (Day 3)</div>
             <div class="location-name"><a href="#">Conference venue</a></div>
             <div class="location-address">
-                <p>Av.</p>
-                <p>Bangkok,</p>
-                <p>Thailand</p>
+                <p>Sasin School of Management</p>
+                <p>อาคาร ศศปาฐศาลา ซอย จุฬาฯ 12</p>
+                <p>Khwaeng Wang Mai, Khet Pathum Wan,</p>
+                <p>Bangkok, Thailand</p>
             </div>
             <div class="location-map" id="location-2">
             </div>
@@ -34,10 +36,6 @@
             <div class="section-header">Recommended Hotel</div>
             <a href="#"><div class="location-header">Hotel Name</div></a>
             <div class="location-address">
-                <p>Av. Italia 850,</p>
-                <p>Santiago, Providencia,</p>
-                <p>Región Metropolitana,</p>
-                <p>Chile</p>
             </div>
         </div>
         <div class="col-md-6 col-md-6">
@@ -60,14 +58,14 @@ $scripts .= "
 
             var locations = [
                 {coords:{lat: 13.7248936, lng: 100.4930253}, id:'location-1', name:'Location 1'},
-                {coords:{lat: 13.7248936, lng: 100.4930253}, id:'location-2', name:'Location 1'},
-                {coords:{lat: 13.7248936, lng: 100.4930253}, id:'location-hotel', name:'Recommended Hotel'}
+                {coords:{lat: 13.742858, lng: 100.527196}, id:'location-2', name:'Location 1'},
+                // {coords:{lat: 13.7248936, lng: 100.4930253}, id:'location-hotel', name:'Recommended Hotel'}
             ];
 
             locations.forEach(function(d){
                 map = new google.maps.Map(document.getElementById(d.id), {
                     center: d.coords,
-                    zoom: 8,
+                    zoom: 12,
                     disableDefaultUI: true
                 });
                 var marker = new google.maps.Marker({
