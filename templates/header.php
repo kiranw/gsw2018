@@ -17,7 +17,7 @@
 
 			<p>
 			MIT GSW mentors are successful entrepreneurs from all around the world.
-			They bring experience, insight, inspiration and a vast network. As a conference attendee, you get the chance to interact with...
+			They bring experience, insight, inspiration and a vast network. As a conference attendee, you will get the chance to interact with...
 			</p>
 
 		    <ul>
