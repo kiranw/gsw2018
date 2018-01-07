@@ -6,7 +6,7 @@
 
 <div class="parallax-window header" data-parallax="scroll" data-image-src="headers/img/header1.jpg">
     <h1 class="parallax-text">
-        <span class="hidden-xs">Organizing Team</span>
+        Organizing Team
     </h1>
 </div>
 <div class="section" id="team-section">
