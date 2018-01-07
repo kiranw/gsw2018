@@ -763,3 +763,29 @@ footer a:hover, footer-title a:focus {
     line-height: 1em;
     color: rgb(100, 121, 162);;
 }
+
+/* General */
+.btn-default {
+    border: 3px solid #677288;
+    border-radius: 0px;
+    font-size: 10px;
+    padding: 5px 10px;
+    font-weight: 500;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    margin-right: 10px;
+    letter-spacing: 2px;
+    color: #1b366d;
+}
+.btn-default:hover {
+    background-color: #677288;
+    border: 3px solid #677288;
+    color: #072247;
+}
+@media only screen and (min-width: 768px) {
+    .btn-default {
+        font-size: 20px;
+        padding: 10px 12px;
+    }
+}
