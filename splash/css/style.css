@@ -376,7 +376,6 @@ a:hover, a:focus {
         top: 5%;
         right: 5%;
         position: absolute;
-        /*float: right;*/
     }
 }
 
@@ -387,8 +386,6 @@ a:hover, a:focus {
 .bottom-row {
     bottom: 5%;
 }
-
-
 
 /* HEADER CSS */
 .navbar {
@@ -452,8 +449,7 @@ a:hover, a:focus {
 }
 
 .dropdown-menu{
-    padding-left: 5px;
-    padding-right: 5px;
+    padding: 15px;
     letter-spacing: 0.08em;
     font-size: 0.9em;
     font-weight: 300;
@@ -465,14 +461,12 @@ a:hover, a:focus {
     font-weight: 600;
 }
 
-.main-page-header{
-    /*width: 100%;*/
-    /*height: 100%;*/
-    /*margin-bottom: 50px;*/
+.dropdown-divider {
+    border: 1px solid #2f3f5f;
+    margin: 10px -8px;
 }
+
 .imgHeader{
-    /*width: 100%;*/
-    /*height: 100%;*/
     position: absolute;
     top: 0;
     left: 0;
@@ -493,6 +487,27 @@ a:hover, a:focus {
     text-transform: uppercase;
 }
 
+#main_page_quote {
+    max-height: initial;
+}
+
+.competitions-highlights .img-circle {
+    width: 200px;
+    height: 200px;
+}
+
+.competitions-highlights p.text-small {
+    margin-top: 5px;
+    font-size: .8em;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+@media only screen and (min-width: 480px) {
+    .competitions-highlights p.text-small {
+        font-size: 1em;
+    }
+}
 
 /* SPEAKER CSS */
 
@@ -768,4 +783,30 @@ footer a:hover, footer-title a:focus {
 .copyright p {
     line-height: 1em;
     color: rgb(100, 121, 162);;
+}
+
+/* General */
+.btn-default {
+    border: 3px solid #677288;
+    border-radius: 0px;
+    font-size: 10px;
+    padding: 5px 10px;
+    font-weight: 500;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    margin-right: 10px;
+    letter-spacing: 2px;
+    color: #1b366d;
+}
+.btn-default:hover {
+    background-color: #677288;
+    border: 3px solid #677288;
+    color: #072247;
+}
+@media only screen and (min-width: 768px) {
+    .btn-default {
+        font-size: 20px;
+        padding: 10px 12px;
+    }
 }

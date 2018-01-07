@@ -29,19 +29,19 @@
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav">
-                <li class="active"><a href="index.php">Conference Information<span class="sr-only">(current)</span></a></li>
-                <li><a href="#">Schedule</a></li>
-                <li><a href="speakers.php">Speakers</a></li>
+                <li class="active"><a href="index.php">Home<span class="sr-only">(current)</span></a></li>
                 <li><a href="#">Registration</a></li>
+                <li><a href="speakers.php">Speakers</a></li>
+                <li><a href="#">Schedule</a></li>
             </ul>
             <ul class="nav navbar-nav navbar-right" id="navbarDropdown" >
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        About
+                        About <span class="caret"></span>
                     </a>
                     <div id="aboutMenu" class="dropdown-menu" aria-labelledby="navbarDropdown">
-<!--                        <a class="dropdown-item" href="#">About MITGSW</a>-->
-                        <div class="dropdown-divider"></div>
+<!--                        <a class="dropdown-item" href="#">About MITGSW</a>
+                        <div class="dropdown-divider"></div>-->
                         <a class="dropdown-item" href="advisoryboard.php">Advisory Board</a>
                         <div class="dropdown-divider"></div>
                         <a class="dropdown-item" href="team.php">Team</a>

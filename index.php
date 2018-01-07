@@ -8,7 +8,6 @@
     include('templates/header.php');
 
     $scripts = "<script src=\"splash/js/d3.js\"></script>";
-    include('templates/speakers-bubbles.php');
 
     include('templates/location.php');
     include('templates/footer.php');
