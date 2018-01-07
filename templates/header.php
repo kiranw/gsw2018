@@ -79,3 +79,8 @@
         </div>
     </div>
 </div>
+<div class="container-fluid">
+    <div class="row">
+        <img src="splash/img/gsw-rafael-reif.jpg" class="img-responsive" alt="Statement from L. Rafael Reif, president of MIT: By bringing together cross-sector experts and leaders, GSW has built a global support network, empowering and accelerating entrepreneurship in emerging markets, from Seoul to Madrid, Cape Town to Santiago. And now Bangkok."/>
+    </div>
+</div>

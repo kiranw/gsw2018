@@ -376,7 +376,6 @@ a:hover, a:focus {
         top: 5%;
         right: 5%;
         position: absolute;
-        /*float: right;*/
     }
 }
 
@@ -387,8 +386,6 @@ a:hover, a:focus {
 .bottom-row {
     bottom: 5%;
 }
-
-
 
 /* HEADER CSS */
 .navbar {
@@ -465,14 +462,7 @@ a:hover, a:focus {
     font-weight: 600;
 }
 
-.main-page-header{
-    /*width: 100%;*/
-    /*height: 100%;*/
-    /*margin-bottom: 50px;*/
-}
 .imgHeader{
-    /*width: 100%;*/
-    /*height: 100%;*/
     position: absolute;
     top: 0;
     left: 0;
@@ -491,6 +481,10 @@ a:hover, a:focus {
 .main-page-Subtitle{
     font-weight: 100;
     text-transform: uppercase;
+}
+
+#main_page_quote {
+    max-height: initial;
 }
 
 
