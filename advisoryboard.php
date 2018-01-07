@@ -6,7 +6,7 @@ include('templates/nav-bar.php');
 
     <div class="parallax-window header" data-parallax="scroll" data-image-src="headers/img/header1.jpg">
         <h1 class="parallax-text">
-            <span class="hidden-xs">Advisory Board</span>
+            Advisory Board
         </h1>
     </div>
     <div class="section" id="advisor-section">

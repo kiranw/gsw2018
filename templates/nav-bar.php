@@ -4,7 +4,9 @@
     <meta charset="UTF-8">
     <title>MIT Global Startup Workshop | Bangkok, Thailand, 2018</title>
     <link rel="shortcut icon" href="http://gsw.mit.edu/2018/favicon.ico"/>
-    <link rel="stylesheet" href="splash/css/bootstrap.min.css">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,400i,500,500i,600,700,800,900" rel="stylesheet">
     <link rel="stylesheet" href="splash/css/style.css">
     <link href="https://use.fontawesome.com/0b972b6cf8.css" media="all" rel="stylesheet">
@@ -56,29 +58,12 @@ $scripts = "
         $(document).scroll(function () {
             var scrollPos = $(document).scrollTop();
             if (scrollPos > 250) {
-                $('#navbar-logo').addClass('navbar-brand-small');
+                $('#navbar-logo').addClass('navbar-logo-small');
                 $('.navbar').addClass('navbar-condensed');
             } else {
-                $('#navbar-logo').removeClass('navbar-brand-small');
+                $('#navbar-logo').removeClass('navbar-logo-small');
                 $('.navbar').removeClass('navbar-condensed');
             }
         });
-        
-        $('#navbarDropdown').mouseover(function(){
-            console.log('on');
-            $('#aboutMenu').slideDown();
-        }).mouseleave(function(){
-            $('#aboutMenu').slideUp();
-        });
-        
-        
-        $('#aboutMenu').mouseover(function(){
-            console.log('on');
-            $('#aboutMenu').slideDown();
-        }).mouseleave(function(){
-            $('#aboutMenu').slideUp();
-        });
-        
-    
     </script>";
 ?>

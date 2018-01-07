@@ -6,7 +6,7 @@
 
 <div class="parallax-window header" data-parallax="scroll" data-image-src="headers/img/speakers-header-2.jpg">
     <h1 class="parallax-text">
-        <span class="hidden-xs">Our Speakers</span>
+        Our Speakers
     </h1>
 </div>
 <div class="section" id="speaker-section-expanded">

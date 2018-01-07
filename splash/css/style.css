@@ -5,17 +5,14 @@
 
 body {
     margin: 0;
-    padding: 0;
-    background-attachment: fixed;
-    background-size: cover;
     font-family: 'Montserrat', sans-serif;
 }
 
-a{
+a {
     color: rgb(100, 121, 162);
 }
 
-a:hover, a:focus{
+a:hover, a:focus {
     text-decoration: none;
 }
 
@@ -26,7 +23,7 @@ a:hover, a:focus{
 
 .top-background {
     /*  making the video fullscreen  */
-    min-width: 100%;
+    width: 100%;
     min-height: 600px;
     max-height: 700px;
     height: auto;
@@ -129,19 +126,38 @@ a:hover, a:focus{
 }
 #newsletter_section {
     padding-top: 20px;
-
 }
 #newsletter_section .section-header {
     margin-top: 0;
 }
 
-.parallax-window {
-    min-height: 200px;
+.parallax-window.header {
+    height: 250px;
+    background-size: cover;
+    background-position: center;
 }
 @media only screen and (min-width: 480px) {
-    .parallax-window {
-        min-height: 400px;
+    .parallax-window.header {
+        height: 400px;
     }
+}
+
+.parallax-text {
+    padding-top: 100px;
+    font-size: 40px;
+    font-weight: 800;
+    text-align: center;
+    color: white;
+}
+@media only screen and (min-width: 480px) {
+    .parallax-text {
+        font-size: 4em;
+        line-height: 200px;
+    }
+}
+
+#parallax_social_media {
+    background-position: top;
 }
 
 #section2 {
@@ -174,20 +190,6 @@ a:hover, a:focus{
 
 .number-label {
     color: white;
-}
-
-.parallax-text {
-    font-size: 4em;
-    font-weight: 800;
-    color: white;
-    text-align: center;
-    line-height: 200px;
-}
-@media only screen and (min-width: 480px) {
-    .parallax-text {
-        min-height: 400px;
-        line-height: 400px;
-    }
 }
 
 .brand-text {
@@ -386,16 +388,6 @@ a:hover, a:focus{
     bottom: 5%;
 }
 
-.header {
-    min-height: 100vh !important;
-    font-size: 1.5em;
-}
-@media only screen and (min-width: 480px) {
-    .header {
-        min-height: 400px !important;
-    }
-}
-
 
 
 /* HEADER CSS */
@@ -427,9 +419,18 @@ a:hover, a:focus{
 }
 
 #navbar-logo {
-    height: 80px;
+    height: 60px;
     transition:height 0.3s ease-out;
     margin-top: -20px;
+}
+@media only screen and (min-width: 768px) {
+    #navbar-logo {
+        height: 80px;
+    }
+}
+
+.navbar-logo-small {
+    height: 60px !important;
 }
 
 .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus {
@@ -448,10 +449,6 @@ a:hover, a:focus{
     color: rgba(255,255,255,0.5);
     letter-spacing: 0.08em;
     font-size: 0.9em;
-}
-
-.navbar-brand-small {
-    height: 60px !important;
 }
 
 .dropdown-menu{
@@ -612,15 +609,6 @@ a.anchor {
     position: absolute;
 }
 
-/*#location-1 {*/
-    /*width: 400px;*/
-    /*height: 400px;*/
-/*}*/
-/*#location-2 {*/
-    /*width: 400px;*/
-    /*height: 400px;*/
-/*}*/
-
 .team-expanded-association {
     margin-bottom: 15px;
 }
@@ -634,15 +622,10 @@ a.anchor {
     width: 90%;
     height: auto;
     border-radius: 50%;
-    /*width: 100%;*/
     margin-bottom: 10px;
 }
 
 .advisor-name{
-    /*text-transform: uppercase;*/
-    /*letter-spacing: 2px;*/
-    /*font-weight: 400;*/
-    /*text-align: left;*/
     text-align: center;
     font-weight: 800;
     margin-bottom: 5px;
@@ -729,7 +712,16 @@ a.anchor {
     margin-top: 20px;
 }
 
+.location-map iframe {
+    width: 100%;
+    height: 250px;
+}
 
+@media only screen and (min-width: 480px) {
+    .location-map iframe {
+        height: 450px;
+    }
+}
 /* FOOTER CSS */
 footer {
     background-color: #0A1C3F;
@@ -743,7 +735,6 @@ footer {
 }
 
 .subscribe {
-    text-align: center;
     color: rgb(100, 121, 162);
     margin-bottom: 60px;
 }
@@ -777,24 +768,4 @@ footer a:hover, footer-title a:focus {
 .copyright p {
     line-height: 1em;
     color: rgb(100, 121, 162);;
-}
-
-#parallax_social_media {
-    min-height: 200px;
-    margin-top: 100px;
-}
-@media only screen and (min-width: 480px) {
-    #parallax_social_media {
-        max-height: 200px;
-    }
-}
-
-#parallax_social_media_text {
-    line-height: 200px;
-}
-@media only screen and (min-width: 480px) {
-    #parallax_social_media_text {
-        max-height: 100px;
-        line-height: 200px;
-    }
 }
