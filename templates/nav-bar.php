@@ -33,6 +33,20 @@
                 <li><a href="#">Registration</a></li>
                 <li><a href="speakers.php">Speakers</a></li>
                 <li><a href="#">Schedule</a></li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Competitions <span class="caret"></span>
+                    </a>
+                    <div id="competitionMenu" class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="epc.php">Elevator Pitch Competition</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="bpc.php">Business Plan Competition</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="startup-showcase.php">Startup Showcase</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="mentors.php">Our mentors</a>
+                    </div>
+                </li>
             </ul>
             <ul class="nav navbar-nav navbar-right" id="navbarDropdown" >
                 <li class="nav-item dropdown">

@@ -92,8 +92,6 @@ a:hover, a:focus {
     font-weight: 700;
     margin-top: 30px;
     margin-bottom: 20px;
-
-    /*font-weight: 100;*/
 }
 @media only screen and (min-width: 480px) {
     .section-header {
@@ -135,6 +133,7 @@ a:hover, a:focus {
     height: 250px;
     background-size: cover;
     background-position: center;
+    background-repeat: none;
 }
 @media only screen and (min-width: 480px) {
     .parallax-window.header {
