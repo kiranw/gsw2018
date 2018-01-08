@@ -1,17 +1,17 @@
 <?php
-    $pageTitle = 'Team | MIT Global Startup Workshop 2018';
+    $pageTitle = 'Partners | MIT Global Startup Workshop 2018';
     $headerImageSrc = 'headers/img/header1.jpg';
     include('templates/nav-bar.php');
 ?>
 
 <div class="parallax-window header" data-parallax="scroll" data-image-src="headers/img/header1.jpg">
     <h1 class="parallax-text">
-        Who we are
+        Partners
     </h1>
 </div>
 <div class="section" id="team-section">
     <div class="section-header-light">
-        <p>Our team consists of individuals across all parts of the MIT campus, and is supported by an accomplished advisory board.</p>
+        <p>[text about partners]</p>
     </div>
 
     <br />
@@ -20,23 +20,23 @@
     <div class="row text-center">
         <div class="col-md-3">
             <img src="team/img/rami.jpg" class="team-picture" alt="" />
-            <p>Rami Abi Akl</p>
-            <p><small>MIT Mechanical Engineering</small></p>
+            <p>Partner</p>
+            <p><small>Organization</small></p>
         </div>
         <div class="col-md-3">
-            <img src="team/img/georgina.jpeg" class="team-picture" alt="" />
-            <p>Georgina Campbell Flatter</p>
-            <p><small>Executive Director of the Legatum Center</small></p>
+            <img src="team/img/rami.jpg" class="team-picture" alt="" />
+            <p>Partner</p>
+            <p><small>Organization</small></p>
         </div>
         <div class="col-md-3">
-            <img src="team/img/aditi.jpg" class="team-picture" alt="" />
-            <p>Aditi Gupta</p>
-            <p><small>MIT Health Sciences & Technology</small></p>
+            <img src="team/img/rami.jpg" class="team-picture" alt="" />
+            <p>Partner</p>
+            <p><small>Organization</small></p>
         </div>
         <div class="col-md-3">
-            <img src="team/img/sarah.jpg" class="team-picture" alt="" />
-            <p>Sarah Jane Maxted</p>
-            <p><small>Executive Director of the MIT Regional Entrepreneurship Program & MIT Innovation Initiative Team Member</small></p>
+            <img src="team/img/rami.jpg" class="team-picture" alt="" />
+            <p>Partner</p>
+            <p><small>Organization</small></p>
         </div>
     </div>
 

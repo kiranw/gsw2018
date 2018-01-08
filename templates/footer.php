@@ -42,7 +42,7 @@
         <div class="row">
             <div class="col-md-offset-2 col-md-4">
                 <p class="footer-title">The Conference</p>
-                <p><a href="index.php">Conference Information</a></p>
+                <p><a href="index.php">Home</a></p>
                 <p><a href="index.php">Registration</a></p>
                 <p><a href="index.php">Agenda</a></p>
                 <p><a href="speakers.php">Speakers</a></p>
@@ -52,7 +52,6 @@
                 <p><a href="advisory.php">Advisory board</a></p>
                 <p><a href="team.php">Team</a></p>
                 <p><a href="index.php#location">Venue</a></p>
-                <p><a href="team.php">FAQ</a></p>
             </div>
         </div>
     </div>
