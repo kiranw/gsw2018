@@ -10,5 +10,7 @@
     $scripts = "<script src=\"splash/js/d3.js\"></script>";
 
     include('templates/location.php');
+    include('templates/sponsors.php');
+
     include('templates/footer.php');
 ?>
