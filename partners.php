@@ -11,9 +11,8 @@
 <div class="section" id="team-section">
     <p class="section-header section-header-page">Local Executive Committee</p>
 
-    <div class="section-header-light">
-        <p>MIT GSW works closely with a local Executive Committee based in Bangkok to authorize facility usage, sponsorship acquisition and serve as government liaison.</p>
-    </div>
+    <p>MIT GSW works closely with a local Executive Committee based in Bangkok to authorize facility usage, sponsorship acquisition and serve as government liaison.</p>
+    <br />
 
     <div class="row text-center">
         <div class="col-md-3">
@@ -41,9 +40,8 @@
     <br />
 
     <p class="section-header section-header-page">Local Working Team</p>
-    <div class="section-header-light">
-        <p>MIT GSW works with a local working team based in Bangkok to connect and engage with the local community and speakers, develop conference material and content, and finalize details with government agencies and vendors.</p>
-    </div>
+    <p>MIT GSW works with a local working team based in Bangkok to connect and engage with the local community and speakers, develop conference material and content, and finalize details with government agencies and vendors.</p>
+    <br />
 </div>
 
 <?php
