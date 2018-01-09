@@ -1,10 +1,9 @@
 <?php
     $pageTitle = 'Team | MIT Global Startup Workshop 2018';
-    $headerImageSrc = 'headers/img/header1.jpg';
     include('templates/nav-bar.php');
 ?>
 
-<div class="parallax-window header" data-parallax="scroll" data-image-src="headers/img/header1.jpg">
+<div class="parallax-window header" data-parallax="scroll" data-image-src="headers/img/mit-header.jpg">
     <h1 class="parallax-text">
         Who we are
     </h1>
