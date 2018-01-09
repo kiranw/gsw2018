@@ -1,12 +1,12 @@
-<div class="parallax-window header" data-parallax="scroll" data-image-src="headers/img/header1.jpg" id="location">
+<div class="parallax-window header" data-parallax="scroll" data-image-src="headers/img/venue-header.png" id="location">
     <div class="parallax-text">
         Venue
     </div>
 </div>
 <div class="section header-section">
     <div class="location-row row">
-        <div class="col-md-6">
-            <div class="location-header">26th March & 27th March (Day 1 & Day 2)</div>
+        <div class="col-md-6 location-column">
+            <div class="location-header">26th March & 27th March (Day 1 & 2)</div>
             <div class="location-name"><a href="#">Conference venue</a></div>
             <div class="location-address">
                 <p>Centara Grand & Bangkok Convention Centre</p>
@@ -18,7 +18,7 @@
                 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d61998.91647100265!2d100.5144136702635!3d13.782955884376248!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30e29ecfb07f362b%3A0xccc050cff0e7d234!2sCentara+Grand+at+CentralWorld!5e0!3m2!1sen!2sus!4v1515346648528" frameborder="0" style="border:0" allowfullscreen></iframe>
             </div>
         </div>
-        <div class="col-md-6">
+        <div class="col-md-6 location-column">
             <div class="location-header">28th March (Day 3)</div>
             <div class="location-name"><a href="#">Conference venue</a></div>
             <div class="location-address">

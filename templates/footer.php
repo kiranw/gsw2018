@@ -32,7 +32,7 @@
                 <form method="post" class="form-inline" action="http://gsw.mit.edu/wordpress/?na=s" onsubmit="return newsletter_check(this)">
                     <div class="form-group">
                         <input class="form-control" type="email" name="ne" placeholder="Email" required>
-                        <input class="form-control" type="submit" value="Subscribe">
+                        <input class="form-control" id="subscribe-button" type="submit" value="Subscribe">
                     </div>
                 </form>
             </div>

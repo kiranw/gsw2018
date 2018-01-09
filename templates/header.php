@@ -19,7 +19,9 @@
 <div class="section">
     <div class="row">
         <div class="col-xs-12">
-            <h2>Why attend?</h2>
+            <div class="section-header">
+                    <p>Why attend?</p>
+            </div>
             <ul>
                 <li>Transform your ideas into successful startups by gaining valuable MIT expertise through workshops</li>
                 <li>Learn about cutting edge, innovative technologies from MIT & world experts through panel discussions</li>
@@ -39,13 +41,16 @@
         <img src="splash/img/gsw-rafael-reif-mobile.jpg" class="img-responsive visible-xs-block" alt="Statement from L. Rafael Reif, president of MIT: By bringing together cross-sector experts and leaders, GSW has built a global support network, empowering and accelerating entrepreneurship in emerging markets, from Seoul to Madrid, Cape Town to Santiago. And now Bangkok."/>
     </div>
 </div>
-<div class="section">
+<div class="section" id="registration-section">
     <div class="row text-center">
         <div class="col-xs-12">
             <br />
-            <p>Register now to guarantee your spot at MIT Global Startup Workshop 2018!</p>
-            <a class="btn btn-default" href="#" role="button">Register to attend</a>
-            <br /><br />
+            <div class="section-subheader text-center">
+                <p><strong>Register</strong> now to guarantee your spot at <strong>MIT Global Startup Workshop 2018</strong>!</p>
+            </div>
+            <a class="btn btn-default registration-button" href="#" role="button">Register to attend</a>
+            <br /><hr><br />
+
             <h2>Learn more about our competitions</h2>
             <br />
             <div class="row competitions-highlights text-center">
