@@ -19,24 +19,24 @@
     <p class="section-header section-header-page">Advisory Board</p>
     <div class="row text-center">
         <div class="col-md-3">
-            <img src="team/img/rami.jpg" class="team-picture" alt="" />
-            <p>Rami Abi Akl</p>
-            <p><small>MIT Mechanical Engineering</small></p>
-        </div>
-        <div class="col-md-3">
             <img src="team/img/georgina.jpeg" class="team-picture" alt="" />
             <p>Georgina Campbell Flatter</p>
             <p><small>Executive Director of the Legatum Center</small></p>
         </div>
         <div class="col-md-3">
-            <img src="team/img/aditi.jpg" class="team-picture" alt="" />
-            <p>Aditi Gupta</p>
-            <p><small>MIT Health Sciences & Technology</small></p>
-        </div>
-        <div class="col-md-3">
             <img src="team/img/sarah.jpg" class="team-picture" alt="" />
             <p>Sarah Jane Maxted</p>
-            <p><small>Executive Director of the MIT Regional Entrepreneurship Program & MIT Innovation Initiative Team Member</small></p>
+            <p><small>Executive Director of the MIT Regional Entrepreneurship Program</small></p>
+        </div>
+        <div class="col-md-3">
+            <img src="team/img/aditi.jpg" class="team-picture" alt="" />
+            <p>Aditi Gupta</p>
+            <p><small>MIT GSW 2017 Lead</small></p>
+        </div>
+        <div class="col-md-3">
+            <img src="team/img/rami.jpg" class="team-picture" alt="" />
+            <p>Rami Abi Akl</p>
+            <p><small>MIT GSW 2017 Lead</small></p>
         </div>
     </div>
 
