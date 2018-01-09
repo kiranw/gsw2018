@@ -567,6 +567,16 @@ a.anchor {
     color: #0e1e58;
 }
 
+/* History CSS */
+#past_websites p {
+    font-weight: 500;
+    margin-bottom: 5px;
+    font-size: 0.7em;
+    color: #515152;
+    text-transform: uppercase;
+    padding: 5px 0;
+}
+
 /* TEAM CSS */
 .team-picture {
     object-fit: cover;
@@ -577,10 +587,6 @@ a.anchor {
 }
 
 .team-name{
-    /*text-transform: uppercase;*/
-    /*letter-spacing: 2px;*/
-    /*font-weight: 400;*/
-    /*text-align: left;*/
     text-align: center;
     font-weight: 800;
     margin-bottom: 5px;
@@ -807,5 +813,19 @@ footer a:hover, footer-title a:focus {
     .btn-default {
         font-size: 20px;
         padding: 10px 12px;
+    }
+}
+
+.full-width {
+    width: 100%;
+}
+
+.video-responsive {
+    width: 100%;
+    height: 200px;
+}
+@media only screen and (min-width: 768px) {
+    .video-responsive {
+        height: 450px;
     }
 }

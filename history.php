@@ -12,34 +12,101 @@
 <div class="section">
   <div class="row">
     <div class="col-xs-12">
-      <p>Learn about starting a company, launch your startup, or raise money at MIT GSW 2017!</p>
+      <p>MIT Global Startup Workshop is an annual 3-day conference that brings together entrepreneurs, students, investors, and key stakeholders from across the world to accelerate the entrepreneurial ecosystem of a host region. Through a series of tailored workshops, panels and keynote speakers, MIT GSW aims to share the entrepreneurial practices that have empowered thousands of companies to launch from MIT.</p>
 
-      <p>Our three day conference is a must-attend event for anyone who is active or new to the startup community. Learn from the best mentors from Silicon Valley, MIT, and other global entrepreneurship hubs - MIT GSW gives you the opportunity to immerse yourself by networking with peers, exchanging ideas with experts, and sharing best practices and lessons learned from around the world.</p>
+      <p>MIT GSW is organized by a diverse group of graduate students and is strongly supported by the MIT entrepreneurial ecosystem including the MIT Legatum Center for Development & Entrepreneurship, the Martin Trust Center for MIT Entrepreneurship, and the MIT Regional Entrepreneurship Accelerator Program (MIT REAP).</p>
 
-      <p>MIT GSW is more than just a conference; it is a <strong>premiere global training and networking event for entrepreneurs</strong>. Every year, we host our conference in a different location, and we are proud to bring MIT GSW to Bangkok, Thailand in 2018.</p>
-
-      <p>Since 1998, our non-profit organization has held international workshops across 6 continents, and has attracted participants from over 70 nations.</p>
+      <p>Since 1998, our non-profit, student-run organization has held 20 international workshops across 6 continents, and has attracted participants from over 70 nations. We are proud to bring MIT GSW to Bangkok, Thailand in 2018.</p>
 
       <br />
-      <h2>Our History</h2>
+      <p>Here's a map of the past venues for MIT GSW:</p>
 
-      <p>The MIT Global Startup Workshop (MIT GSW) was <strong>founded in 1997</strong> when the MIT $50K (now $100K) Entrepreneurship Competition received numerous queries from organizations around the world interested in starting and improving their own business plan competitions (BPCs).</p>
+      <p class="text-center">
+        <a href="splash/img/gsw-history-map-2018-full-size.jpg" title="Click to open larger version of the map">
+          <img src="splash/img/gsw-history-map-2018.jpg" class="img-responsive full-width" alt="Map of countries" />
+        </a>
+      </p>
+      <br />
 
-      <p>The first MIT GSW was held in Cambridge, Massachusetts in 1998, and brought together an international community committed to launching BPCs to stimulate and nurture entrepreneurship worldwide.</p>
+      <div class="text-center" id="past_websites">
+        <div class="row">
+          <div class="col-md-4">
+            <a href="http://gsw.mit.edu/2016">
+              <img src="splash/img/past-websites/2017-santiago.jpg" class="img-responsive full-width" />
+              <p>GSW 2017 - Santiago, Chile</p>
+            </a>
+          </div>
+          <div class="col-md-4">
+            <img src="splash/img/past-websites/2016-hyderabad.jpg" class="img-responsive full-width" />
+            <p>GSW 2016 - Hyderabad, India</p>
+          </div>
+          <div class="col-md-4">
+            <a href="http://gsw.mit.edu/2015">
+              <img src="splash/img/past-websites/2015-guatemala.jpg" class="img-responsive full-width" />
+              <p>GSW 2015 - Guatemala City, Guatemala</p>
+            </a>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-4">
+            <a href="http://gsw.mit.edu/2014">
+              <img src="splash/img/past-websites/2014-morocco.jpg" class="img-responsive full-width" />
+              <p>GSW 2014 - Marrakech, Morocco</p>
+            </a>
+          </div>
+          <div class="col-md-4">
+            <a href="http://gsw.mit.edu/2013">
+              <img src="splash/img/past-websites/2013-talinn.jpg" class="img-responsive full-width" />
+              <p>GSW 2013 - Talinn, Estonia</p>
+            </a>
+          </div>
+          <div class="col-md-4">
+            <a href="http://gsw.mit.edu/2012">
+              <img src="splash/img/past-websites/2012-istanbul.jpg" class="img-responsive full-width" />
+              <p>GSW 2012 - Istanbul, Turkey</p>
+            </a>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-4">
+            <a href="http://gsw.mit.edu/2011">
+              <img src="splash/img/past-websites/2011-seoul.jpg" class="img-responsive full-width" />
+              <p>GSW 2011 - Seoul, South Korea</p>
+            </a>
+          </div>
+          <div class="col-md-4">
+            <a href="http://gsw.mit.edu/2010">
+              <img src="splash/img/past-websites/2010-reykjavik.jpg" class="img-responsive full-width" />
+              <p>GSW 2010 - Reykjavik, Iceland</p>
+            </a>
+          </div>
+          <div class="col-md-4">
+            <img src="splash/img/past-websites/2009-capetown.jpg" class="img-responsive full-width" />
+            <p>GSW 2009 - Cape Town, South Africa</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-4">
+            <img src="splash/img/past-websites/2008-madrid.jpg" class="img-responsive full-width" />
+            <p>GSW 2008 - Madrid, Spain</p>
+          </div>
+          <div class="col-md-4">
+            <img src="splash/img/past-websites/2007-trondheim.jpg" class="img-responsive full-width" />
+            <p>GSW 2007 - Trondheim, Norway</p>
+          </div>
+          <div class="col-md-4">
+            <img src="splash/img/past-websites/2006-buenosaires.jpg" class="img-responsive full-width" />
+            <p>GSW 2006 - Buenos Aires, Argentina</p>
+          </div>
+        </div>
+      </div>
 
-      <p>A decade later, having helped grow and mature the BPC community, MIT GSW expanded its mission to include all aspects of the entrepreneurial ecosystem. Today we continue to build stronger, more productive entrepreneurial ecosystems around the world and a diverse and dynamic global support network for entrepreneurs.</p>
-
-      <p>Here's a map of the past venues for MIT GSW (Flag icons provided by <a href="http://icondrawer.com">icondrawer.com</a>):</p>
-
-      <p><img src="splash/img/gsw-history-map-2018.jpg" alt="Map of countries" /></p>
-
-      <!-- TODO: Add links to previous websites -->
-
+      <br />
       <br />
 
       <div class="row">
-        <div class="col-md-offset-3 col-md-6">
-          <iframe class="img-responsive" src="https://www.youtube-nocookie.com/embed/UmR5QitKu-0?rel=0" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
+        <div class="col-md-offset-2 col-md-8">
+          <iframe class="video-responsive" src="https://www.youtube-nocookie.com/embed/UmR5QitKu-0?rel=0" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
         </div>
       </div>
     </div>

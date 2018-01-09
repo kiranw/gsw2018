@@ -19,11 +19,6 @@
 <div class="section">
     <div class="row">
         <div class="col-xs-12">
-            <p>MIT Global Startup Workshop is an <strong>annual 3-day conference</strong> that brings together entrepreneurs, students, investors, and key stakeholders from across the world to accelerate the entrepreneurial ecosystem of a host region.</p>
-            <p>Through a series of tailored workshops, panels and keynote speakers, MIT GSW aims to share the entrepreneurial practices that have empowered thousands of companies to launch from MIT.</p>
-
-            <br />
-
             <h2>Why attend?</h2>
             <ul>
                 <li>Transform your ideas into successful startups by gaining valuable MIT expertise through workshops</li>
@@ -40,7 +35,7 @@
 <div class="container-fluid">
     <div class="row">
         <img src="splash/img/gsw-rafael-reif.jpg" class="img-responsive hidden-xs" alt="Statement from L. Rafael Reif, president of MIT: By bringing together cross-sector experts and leaders, GSW has built a global support network, empowering and accelerating entrepreneurship in emerging markets, from Seoul to Madrid, Cape Town to Santiago. And now Bangkok."/>
-        
+
         <img src="splash/img/gsw-rafael-reif-mobile.jpg" class="img-responsive visible-xs-block" alt="Statement from L. Rafael Reif, president of MIT: By bringing together cross-sector experts and leaders, GSW has built a global support network, empowering and accelerating entrepreneurship in emerging markets, from Seoul to Madrid, Cape Town to Santiago. And now Bangkok."/>
     </div>
 </div>
