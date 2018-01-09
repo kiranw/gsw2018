@@ -851,7 +851,7 @@ footer a:hover, footer-title a:focus {
 }
 
 /* General */
-.registration-button {
+.btn, .registration-button {
     border: none;
     font-size: 10px;
     padding: 5px 10px;
@@ -865,7 +865,7 @@ footer a:hover, footer-title a:focus {
     background-color: #dd4f33;
     opacity: 0.9;
 }
-.registration-button:hover {
+    .btn:hover, .registration-button:hover {
     opacity: 1;
     font-weight: 700;
     color: white;

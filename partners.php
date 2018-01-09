@@ -13,7 +13,6 @@
 
     <p>MIT GSW works closely with a local Executive Committee based in Bangkok to authorize facility usage, sponsorship acquisition and serve as government liaison.</p>
     <br />
-
     <div class="row text-center">
         <div class="col-md-3">
             <img src="team/img/rami.jpg" class="team-picture" alt="" />
