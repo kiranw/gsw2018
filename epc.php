@@ -3,7 +3,7 @@
     include('templates/nav-bar.php');
 ?>
 
-<div class="parallax-window header" data-parallax="scroll" data-image-src="headers/img/workshops-header.jpg">
+<div class="parallax-window header" data-parallax="scroll" data-image-src="headers/img/epc-header.png">
     <h1 class="parallax-text">
         Elevator Pitch Competition
     </h1>

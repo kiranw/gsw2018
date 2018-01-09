@@ -55,20 +55,20 @@
             <br />
             <div class="row competitions-highlights text-center">
                 <div class="col-sm-4">
-                    <a href="#">
-                        <img src="headers/img/workshops-header.jpg" class="img-circle" />
+                    <a href="epc.php">
+                        <img src="splash/img/epc-thumbnail.png" class="img-circle" />
                         <p class="text-small">Elevator Pitch Competition</p>
                     </a>
                 </div>
                 <div class="col-sm-4">
-                    <a href="#">
-                        <img src="headers/img/workshops-header.jpg" class="img-circle" />
+                    <a href="bpc.php">
+                        <img src="splash/img/bpc-thumbnail.png" class="img-circle" />
                         <p class="text-small">Business Plan Competition</p>
                     </a>
                 </div>
                 <div class="col-sm-4">
-                    <a href="#">
-                        <img src="headers/img/workshops-header.jpg" class="img-circle" />
+                    <a href="startup-showcase.php">
+                        <img src="splash/img/showcase-thumbnail.png" class="img-circle" />
                         <p class="text-small">Startup Showcase</p>
                     </a>
                 </div>
