@@ -1,6 +1,5 @@
 <?php
     $pageTitle = 'Speakers | MIT Global Startup Workshop 2018';
-    $headerImageSrc = 'headers/img/header1.jpg';
     include('templates/nav-bar.php');
 ?>
 

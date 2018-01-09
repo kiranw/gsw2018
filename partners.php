@@ -1,6 +1,5 @@
 <?php
     $pageTitle = 'Partners | MIT Global Startup Workshop 2018';
-    $headerImageSrc = 'headers/img/header1.jpg';
     include('templates/nav-bar.php');
 ?>
 
@@ -10,13 +9,11 @@
     </h1>
 </div>
 <div class="section" id="team-section">
-    <div class="section-header-light">
-        <p>[text about partners]</p>
-    </div>
+    <p class="section-header section-header-page">Local Executive Committee</p>
 
+    <p>MIT GSW works closely with a local Executive Committee based in Bangkok to authorize facility usage, sponsorship acquisition and serve as government liaison.</p>
     <br />
 
-    <p class="section-header section-header-page">Advisory Board</p>
     <div class="row text-center">
         <div class="col-md-3">
             <img src="team/img/rami.jpg" class="team-picture" alt="" />
@@ -42,7 +39,9 @@
 
     <br />
 
-    <p class="section-header section-header-page">Organizing team</p>
+    <p class="section-header section-header-page">Local Working Team</p>
+    <p>MIT GSW works with a local working team based in Bangkok to connect and engage with the local community and speakers, develop conference material and content, and finalize details with government agencies and vendors.</p>
+    <br />
 </div>
 
 <?php
