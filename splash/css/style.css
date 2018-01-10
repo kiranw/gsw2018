@@ -88,14 +88,14 @@ a:hover, a:focus {
 }
 
 .section-header {
-    font-size: 1em;
+    font-size: 0.9em;
     font-weight: 700;
     margin-top: 30px;
     margin-bottom: 20px;
 }
 @media only screen and (min-width: 480px) {
     .section-header {
-        font-size: 2em;
+        font-size: 1.5em;
     }
 }
 
@@ -299,6 +299,12 @@ a:hover, a:focus {
 
 .partner-logo {
     width: 200px;
+    height: auto;
+    margin: 0 auto;
+}
+
+.partner-logo-2 {
+    width: 150px;
     height: auto;
     margin: 0 auto;
 }
@@ -511,7 +517,7 @@ a:hover, a:focus {
     max-height: initial;
 }
 
-.competitions-highlights .img-circle {
+.competition-img {
     width: 200px;
     height: 200px;
     margin: 20px 0px;
@@ -829,7 +835,7 @@ footer {
     background-color: #dd4f33;
     opacity: 0.9;
 }
-.btn:hover, #subscribe-button {
+.btn:hover, #subscribe-button:hover {
     opacity: 1;
     font-weight: 700;
     color: white;
