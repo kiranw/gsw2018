@@ -11,12 +11,20 @@
 <div class="section">
     <div class="row">
         <div class="col-xs-12">
-            <h2>What is it?</h2>
-            <ul>
-                <li>Up to 30 entrepreneurs pitch their idea to a panel of judges in a fast-paced, rapid fire competition </li>
-                <li>Each participant pitches for up to 1 minute</li>
-            </ul>
-            <br />
+            <div class="row">
+                <div class="col-md-2 competitions-highlights">
+                    <img src="splash/img/epc-thumbnail.png" class="competition-img" />
+                </div>
+                <div class="col-md-1"></div>
+                <div class="col-md-9 marginTop">
+                    <h2>What is it?</h2>
+                    <ul>
+                        <li>Up to 30 entrepreneurs pitch their idea to a panel of judges in a fast-paced, rapid fire competition </li>
+                        <li>Each participant pitches for up to 1 minute</li>
+                    </ul>
+                    <br />
+                </div>
+            </div>
 
             <h2>Who should apply?</h2>
             <ul>
