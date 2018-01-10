@@ -4,7 +4,6 @@
 ?>
 
 <div class="parallax-window header" data-parallax="scroll" data-image-src="headers/img/mit-header.png">
-
     <h1 class="parallax-text">
         Our history
     </h1>

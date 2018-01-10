@@ -88,14 +88,14 @@ a:hover, a:focus {
 }
 
 .section-header {
-    font-size: 1em;
+    font-size: 0.9em;
     font-weight: 700;
     margin-top: 30px;
     margin-bottom: 20px;
 }
 @media only screen and (min-width: 480px) {
     .section-header {
-        font-size: 2em;
+        font-size: 1.5em;
     }
 }
 
@@ -127,6 +127,11 @@ a:hover, a:focus {
 }
 #newsletter_section .section-header {
     margin-top: 0;
+}
+
+#countdown {
+    margin-top: -5px;
+    background-color: #efefef;
 }
 
 #registration-section {
@@ -187,12 +192,17 @@ a:hover, a:focus {
 }
 
 .number {
-    font-size: 1.5em;
-    color: #dd4f33;
+    font-size: 3em;
+    color: #d43f3a;
+    font-weight: 700;
 }
 
 .number-label {
-    color: white;
+    color: #0e1e58;
+    text-transform: uppercase;
+    font-size: 0.8em;
+    letter-spacing: 2px;
+    font-weight: 700;
 }
 
 .brand-text {
@@ -293,6 +303,12 @@ a:hover, a:focus {
     margin: 0 auto;
 }
 
+.partner-logo-2 {
+    width: 150px;
+    height: auto;
+    margin: 0 auto;
+}
+
 @media only screen and (min-width: 480px) {
     .partner-logo {
         margin-top: 30px;
@@ -362,7 +378,7 @@ a:hover, a:focus {
     /*color: #0A1C3F !important;*/
     color: white;
     opacity: 0.8;
-    margin-bottom: 10px;
+    margin: 30px 0px;
 }
 
 .fa:hover {
@@ -501,7 +517,7 @@ a:hover, a:focus {
     max-height: initial;
 }
 
-.competitions-highlights .img-circle {
+.competition-img {
     width: 200px;
     height: 200px;
     margin: 20px 0px;
@@ -720,9 +736,9 @@ a.anchor {
 }
 
 .location-header {
-    font-weight: 900;
+    font-weight: 700;
     text-transform: uppercase;
-    color: #515152;
+    color: #dd4f33;
     margin-bottom: 25px;
     font-size: 0.9em;
     letter-spacing: 0.03em;
@@ -733,11 +749,11 @@ a.anchor {
     font-weight: 400;
     color: #0e1e58;
     letter-spacing: 0.05em;
-    margin-bottom: 10px;
+    margin-bottom: 30px;
 }
 
 .location-address {
-    margin-top: 5px;
+    margin-top: 35px;
     margin-bottom: 30px;
 }
 .location-address p{
@@ -819,7 +835,7 @@ footer {
     background-color: #dd4f33;
     opacity: 0.9;
 }
-.btn:hover, #subscribe-button {
+.btn:hover, #subscribe-button:hover {
     opacity: 1;
     font-weight: 700;
     color: white;
@@ -841,7 +857,7 @@ footer a:hover, footer-title a:focus {
 
 .copyright{
     text-align: center;
-    color:white;
+    color: rgba(255,255,255,0.6);
     margin-top: 40px;
 }
 
@@ -851,7 +867,7 @@ footer a:hover, footer-title a:focus {
 }
 
 /* General */
-.btn, .registration-button {
+.registration-button {
     border: none;
     font-size: 10px;
     padding: 5px 10px;
@@ -865,7 +881,7 @@ footer a:hover, footer-title a:focus {
     background-color: #dd4f33;
     opacity: 0.9;
 }
-    .btn:hover, .registration-button:hover {
+.registration-button:hover {
     opacity: 1;
     font-weight: 700;
     color: white;
