@@ -16,19 +16,91 @@
     <!-- Full-size video -->
     <video class="top-background hidden-xs" preload="none" autoplay loop muted="muted" plays-inline="" src="http://gsw-2018.herokuapp.com/splash/img/gsw_background_video.mp4"></video>
 </div>
-<div class="section">
-    <div class="row">
+<div class="section" id="countdown">
+    <div class="row countdown-text text-center">
+        <div class="col-sm-3">
+            <span id="days" class="number">5</span><br>
+            <span class="number-label">days</span>
+        </div>
+        <div class="col-sm-3">
+            <span id="hours" class="number">10</span><br>
+            <span class="number-label">hours</span>
+        </div>
+        <div class="col-sm-3">
+            <span id="minutes" class="number">1</span><br>
+            <span class="number-label">minutes</span>
+        </div>
+        <div class="col-sm-3">
+            <span id="seconds" class="number">1</span><br>
+            <span class="number-label">seconds</span>
+        </div>
+    </div>
+</div>
+<script>
+    /* COUNTDOWN */
+    // Set the date we're counting down to (Thailand is UTC+7)
+    var countDownDate = new Date(Date.UTC(2018, 2, 26, 1, 0, 0)).getTime(); // 8AM
+    console.log("ahepp")
+    // Update the count down every 1 second
+    var x = setInterval(function() {
+
+        // Get todays date and time
+        var now = new Date().getTime();
+
+        // Find the distance between now an the count down date
+        var distance = countDownDate - now;
+
+        // Time calculations for days, hours, minutes and seconds
+        var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+        var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+        var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+        var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+        // Display the result in the following element
+        $("#days").html(days);
+        $("#hours").html(hours);
+        $("#minutes").html(minutes);
+        $("#seconds").html(seconds);
+
+        // If the count down is finished, write some text
+        if (distance < 0) {
+            clearInterval(x);
+            $("#countdown").html = "";
+        }
+    }, 1000);
+</script>
+<div class="section" id="registration-section">
+    <div class="row text-center">
         <div class="col-xs-12">
-            <h2>Why attend?</h2>
-            <ul>
-                <li>Transform your ideas into successful startups by gaining valuable MIT expertise through workshops</li>
-                <li>Learn about cutting edge, innovative technologies from MIT & world experts through panel discussions</li>
-                <li>Participate in the GSW Competitions to receive mentorship from renowned entrepreneurs and gain access to exclusive VIP networking events</li>
-                <li>Display your company in the GSW Startup Showcase featuring protected time with investors</li>
-                <li>Gain access to top talent and emerging tech startups</li>
-                <li>Learn and understand the business landscape in the South East Asian market</li>
-                <li>Make fruitful connections with investors, government officials, corporate representatives, and more.</li>
-            </ul>
+            <br />
+            <div class="section-subheader text-center">
+                <p><strong>Register</strong> now to guarantee your spot at <strong>MIT Global Startup Workshop 2018</strong>!</p>
+            </div>
+            <a class="btn btn-default registration-button" href="#" role="button">Register to attend</a>
+            <br /><hr><br />
+
+            <h2>Learn more about our competitions</h2>
+            <br />
+            <div class="row competitions-highlights text-center">
+                <div class="col-sm-4">
+                    <a href="epc.php">
+                        <img src="splash/img/epc-thumbnail.png" class="competition-img" />
+                        <p class="text-small">Elevator Pitch Competition</p>
+                    </a>
+                </div>
+                <div class="col-sm-4">
+                    <a href="bpc.php">
+                        <img src="splash/img/bpc-thumbnail.png" class="competition-img" />
+                        <p class="text-small">Business Plan Competition</p>
+                    </a>
+                </div>
+                <div class="col-sm-4">
+                    <a href="startup-showcase.php">
+                        <img src="splash/img/showcase-thumbnail.png" class="competition-img" />
+                        <p class="text-small">Startup Showcase</p>
+                    </a>
+                </div>
+            </div>
         </div>
     </div>
 </div>
@@ -40,34 +112,20 @@
     </div>
 </div>
 <div class="section">
-    <div class="row text-center">
+    <div class="row">
         <div class="col-xs-12">
-            <br />
-            <p>Register now to guarantee your spot at MIT Global Startup Workshop 2018!</p>
-            <a class="btn btn-default" href="#" role="button">Register to attend</a>
-            <br /><br />
-            <h2>Learn more about our competitions</h2>
-            <br />
-            <div class="row competitions-highlights text-center">
-                <div class="col-sm-4">
-                    <a href="epc.php">
-                        <img src="splash/img/icons/elevatorspeech.png" class="img-square" />
-                        <p class="text-small">Elevator Pitch Competition</p>
-                    </a>
-                </div>
-                <div class="col-sm-4">
-                    <a href="bpc.php">
-                        <img src="splash/img/icons/businessplan.png" class="img-square" />
-                        <p class="text-small">Business Plan Competition</p>
-                    </a>
-                </div>
-                <div class="col-sm-4">
-                    <a href="startup-showcase.php">
-                        <img src="splash/img/icons/startup.png" class="img-square" />
-                        <p class="text-small">Startup Showcase</p>
-                    </a>
-                </div>
+            <div class="section-header">
+                    <p>Why attend?</p>
             </div>
+            <ul>
+                <li>Transform your ideas into successful startups by gaining valuable MIT expertise through workshops</li>
+                <li>Learn about cutting edge, innovative technologies from MIT & world experts through panel discussions</li>
+                <li>Participate in the GSW Competitions to receive mentorship from renowned entrepreneurs and gain access to exclusive VIP networking events</li>
+                <li>Display your company in the GSW Startup Showcase featuring protected time with investors</li>
+                <li>Gain access to top talent and emerging tech startups</li>
+                <li>Learn and understand the business landscape in the South East Asian market</li>
+                <li>Make fruitful connections with investors, government officials, corporate representatives, and more.</li>
+            </ul>
         </div>
     </div>
 </div>

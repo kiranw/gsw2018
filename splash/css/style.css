@@ -88,14 +88,14 @@ a:hover, a:focus {
 }
 
 .section-header {
-    font-size: 1em;
+    font-size: 0.9em;
     font-weight: 700;
     margin-top: 30px;
     margin-bottom: 20px;
 }
 @media only screen and (min-width: 480px) {
     .section-header {
-        font-size: 2em;
+        font-size: 1.5em;
     }
 }
 
@@ -127,6 +127,15 @@ a:hover, a:focus {
 }
 #newsletter_section .section-header {
     margin-top: 0;
+}
+
+#countdown {
+    margin-top: -5px;
+    background-color: #efefef;
+}
+
+#registration-section {
+    margin-bottom: 50px;
 }
 
 .parallax-window.header {
@@ -183,12 +192,17 @@ a:hover, a:focus {
 }
 
 .number {
-    font-size: 1.5em;
-    color: #dd4f33;
+    font-size: 3em;
+    color: #d43f3a;
+    font-weight: 700;
 }
 
 .number-label {
-    color: white;
+    color: #0e1e58;
+    text-transform: uppercase;
+    font-size: 0.8em;
+    letter-spacing: 2px;
+    font-weight: 700;
 }
 
 .brand-text {
@@ -235,7 +249,7 @@ a:hover, a:focus {
 }
 
 .brand-highlight {
-    background-color: red;
+    background-color: #dd4f33;
     padding: 4px 8px;
 }
 
@@ -285,6 +299,12 @@ a:hover, a:focus {
 
 .partner-logo {
     width: 200px;
+    height: auto;
+    margin: 0 auto;
+}
+
+.partner-logo-2 {
+    width: 150px;
     height: auto;
     margin: 0 auto;
 }
@@ -355,7 +375,14 @@ a:hover, a:focus {
 .fa {
     font-size: 3em !important;
     text-align: center !important;
-    color: #0A1C3F !important
+    /*color: #0A1C3F !important;*/
+    color: white;
+    opacity: 0.8;
+    margin: 30px 0px;
+}
+
+.fa:hover {
+    opacity: 1;
 }
 
 .partner-icon {
@@ -490,9 +517,10 @@ a:hover, a:focus {
     max-height: initial;
 }
 
-.competitions-highlights .img-circle {
+.competition-img {
     width: 200px;
     height: 200px;
+    margin: 20px 0px;
 }
 
 .competitions-highlights .img-square{
@@ -501,15 +529,16 @@ a:hover, a:focus {
 }
 
 .competitions-highlights p.text-small {
-    margin-top: 5px;
-    font-size: .8em;
+    margin-top: 10px;
+    font-size: .5em;
     font-weight: 500;
     text-transform: uppercase;
     letter-spacing: 2px;
+    padding: 0px 20px;
 }
 @media only screen and (min-width: 480px) {
     .competitions-highlights p.text-small {
-        font-size: 1em;
+        font-size: 0.8em;
     }
 }
 
@@ -703,15 +732,19 @@ a.anchor {
     margin-top: 10px;
 }
 
+.location-column {
+    /*padding-right: 30px;*/
+}
+
 .location-row-hotel {
     margin-top: 50px;
 }
 
 .location-header {
-    font-weight: 900;
+    font-weight: 700;
     text-transform: uppercase;
-    color: #515152;
-    margin-bottom: 10px;
+    color: #dd4f33;
+    margin-bottom: 25px;
     font-size: 0.9em;
     letter-spacing: 0.03em;
 }
@@ -721,11 +754,12 @@ a.anchor {
     font-weight: 400;
     color: #0e1e58;
     letter-spacing: 0.05em;
+    margin-bottom: 30px;
 }
 
 .location-address {
-    margin-top: 5px;
-    margin-bottom: 5px;
+    margin-top: 35px;
+    margin-bottom: 30px;
 }
 .location-address p{
     font-size: 0.8em;
@@ -738,7 +772,7 @@ a.anchor {
 }
 
 .location-map iframe {
-    width: 100%;
+    width: 90%;
     height: 250px;
 }
 
@@ -749,9 +783,18 @@ a.anchor {
 }
 /* FOOTER CSS */
 footer {
-    background-color: #0A1C3F;
+    margin-top: 50px;
+    background-color: rgb(6,23,56);
     padding-top: 40px;
     padding-bottom: 40px;
+}
+
+#footer-hr {
+    width: 80%;
+    opacity: 0.2;
+    margin: 0 auto;
+    margin-top: 1%;
+    margin-bottom: 1%;
 }
 
 .section-header-footer{
@@ -760,18 +803,51 @@ footer {
 }
 
 .subscribe {
-    color: rgb(100, 121, 162);
-    margin-bottom: 60px;
+    color: rgba(255, 255, 255, 0.6);
+    margin-bottom: 0px;
 }
 
 .subscribe .form-control {
-    color: rgb(100, 121, 162);
-    background-color: rgba(255,255,255,0);
-    border: 2px solid rgb(100, 121, 162);
-    border-radius: 0px;
+    color: rgba(255, 255, 255, 0.8);
+    background-color: rgba(255,255,255,0.15);
+    border: 2px solid color: rgba(255, 255, 255, 0.6);
+    border-radius: 5px;
     -webkit-box-shadow: none;
     box-shadow: none;
+    margin: 0;
 }
+
+.subscribe .form-control:hover {
+    color: rgba(255, 255, 255, 1);
+    background-color: rgba(255,255,255,0.1);
+    border: 2px solid color: rgba(255, 255, 255, 0.6);
+    border-radius: 5px;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    margin: 0;
+}
+/* General */
+.btn, #subscribe-button{
+    border: none;
+    padding: 5px 10px;
+    font-weight: 500;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    margin-right: 10px;
+    letter-spacing: 2px;
+    color: white;
+    background-color: #dd4f33;
+    opacity: 0.9;
+}
+.btn:hover, #subscribe-button:hover {
+    opacity: 1;
+    font-weight: 700;
+    color: white;
+    background-color: #dd4f33;
+    border: none;
+}
+
 
 .footer-title{
     letter-spacing: 0.08em;
@@ -786,19 +862,18 @@ footer a:hover, footer-title a:focus {
 
 .copyright{
     text-align: center;
-    color:white;
+    color: rgba(255,255,255,0.6);
     margin-top: 40px;
 }
 
 .copyright p {
     line-height: 1em;
-    color: rgb(100, 121, 162);;
+    color: rgba(255, 255, 255, 0.6);
 }
 
 /* General */
-.btn-default {
-    border: 3px solid #677288;
-    border-radius: 0px;
+.registration-button {
+    border: none;
     font-size: 10px;
     padding: 5px 10px;
     font-weight: 500;
@@ -807,15 +882,19 @@ footer a:hover, footer-title a:focus {
     margin-top: 20px;
     margin-right: 10px;
     letter-spacing: 2px;
-    color: #1b366d;
+    color: white;
+    background-color: #dd4f33;
+    opacity: 0.9;
 }
-.btn-default:hover {
-    background-color: #677288;
-    border: 3px solid #677288;
-    color: #072247;
+.registration-button:hover {
+    opacity: 1;
+    font-weight: 700;
+    color: white;
+    background-color: #dd4f33;
+    border: none;
 }
 @media only screen and (min-width: 768px) {
-    .btn-default {
+    .registration-button {
         font-size: 20px;
         padding: 10px 12px;
     }
@@ -833,4 +912,8 @@ footer a:hover, footer-title a:focus {
     .video-responsive {
         height: 450px;
     }
+}
+
+p {
+    margin: 20px 0px;
 }

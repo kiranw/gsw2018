@@ -20,9 +20,10 @@
 $scripts .= "
 <script src=\"splash/js/d3.js\"></script>
 <script>
-   d3.csv(\"data/speakers.csv\", function(error, speakers) {
+   d3.csv(\"data/speakers_new.csv\", function(error, speakers) {
       if (error) throw error;
 
+    // columns for display on the site
     var totalColumns = 4;
     var rows = speakers.length/totalColumns;
     for (var i = 0; i < rows; i++){
@@ -31,17 +32,24 @@ $scripts .= "
             var index = i*totalColumns + j;
             if (index < speakers.length){
                 var speaker = speakers[i*totalColumns + j];
-                imageMarkup = '<div class=\'speaker col-sm-6 col-md-3\'>' +
-                    '<a class=\'anchor\' name=\'speaker'+ speaker.id +'\'></a>' +
-                    '<img class=\'speaker-picture-association\' src=\'speaker/img/' + speaker.association + '\'/>' +
-                    '<img class=\'speaker-picture\' src=\'speaker/img/' + speaker.imgpath + '\'>';
-                markup += imageMarkup + speaker.name + '</div>';
+                var name = speaker['First Name'] + ' ' + speaker['Last Name'];
+                var path = speaker['Filename'];
+                var bio = speaker['Bio'];
+                var title = speaker['Title'];
+                var associationMarkup = speaker['MIT association'] == 'Y' ?
+                    '<img class=\'speaker-picture-association\' src=\'speaker/img/mit.png\'/>' : '';
 
-                speakerInfoMarkup = '<div class=\'row speaker-expanded-bio\' id=\'speaker' + speaker.name.replace(' ','') + '\'>' +
+                imageMarkup = '<div class=\'speaker col-sm-6 col-md-3\'>' +
+                    '<a class=\'anchor\' name=\'speaker'+ speaker[3] +'\'></a>' +
+                    associationMarkup +
+                    '<img class=\'speaker-picture\' src=\'speaker/img/' + path + '\'>';
+                markup += imageMarkup + name + '</div>';
+
+                speakerInfoMarkup = '<div class=\'row speaker-expanded-bio\' id=\'speaker' + name.replace(' ','') + '\'>' +
                     imageMarkup + '</div><div class=\'col-sm-6 col-md-9 speaker-expanded-text\'>'
-                    + '<div class=\'speaker-expanded-name\'>' + speaker.name + '</div>'
-                    + '<div class=\'speaker-expanded-position\'>' + speaker.position + '</div>'
-                    + speaker.bio + '</div></div>';
+                    + '<div class=\'speaker-expanded-name\'>' + name + '</div>'
+                    + '<div class=\'speaker-expanded-position\'>' + title + '</div>'
+                    + bio + '</div></div>';
                 $(speakerInfoMarkup).appendTo('#speaker-section-expanded');
             }
             else {

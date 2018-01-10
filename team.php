@@ -3,7 +3,7 @@
     include('templates/nav-bar.php');
 ?>
 
-<div class="parallax-window header" data-parallax="scroll" data-image-src="headers/img/mit-header.jpg">
+<div class="parallax-window header" data-parallax="scroll" data-image-src="headers/img/mit-header.png">
     <h1 class="parallax-text">
         Who we are
     </h1>
