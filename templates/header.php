@@ -16,31 +16,59 @@
     <!-- Full-size video -->
     <video class="top-background hidden-xs" preload="none" autoplay loop muted="muted" plays-inline="" src="http://gsw-2018.herokuapp.com/splash/img/gsw_background_video.mp4"></video>
 </div>
-<div class="section">
-    <div class="row">
-        <div class="col-xs-12">
-            <div class="section-header">
-                    <p>Why attend?</p>
-            </div>
-            <ul>
-                <li>Transform your ideas into successful startups by gaining valuable MIT expertise through workshops</li>
-                <li>Learn about cutting edge, innovative technologies from MIT & world experts through panel discussions</li>
-                <li>Participate in the GSW Competitions to receive mentorship from renowned entrepreneurs and gain access to exclusive VIP networking events</li>
-                <li>Display your company in the GSW Startup Showcase featuring protected time with investors</li>
-                <li>Gain access to top talent and emerging tech startups</li>
-                <li>Learn and understand the business landscape in the South East Asian market</li>
-                <li>Make fruitful connections with investors, government officials, corporate representatives, and more.</li>
-            </ul>
+<div class="section" id="countdown">
+    <div class="row countdown-text text-center">
+        <div class="col-sm-3">
+            <span id="days" class="number">5</span><br>
+            <span class="number-label">days</span>
+        </div>
+        <div class="col-sm-3">
+            <span id="hours" class="number">10</span><br>
+            <span class="number-label">hours</span>
+        </div>
+        <div class="col-sm-3">
+            <span id="minutes" class="number">1</span><br>
+            <span class="number-label">minutes</span>
+        </div>
+        <div class="col-sm-3">
+            <span id="seconds" class="number">1</span><br>
+            <span class="number-label">seconds</span>
         </div>
     </div>
 </div>
-<div class="container-fluid">
-    <div class="row">
-        <img src="splash/img/gsw-rafael-reif.jpg" class="img-responsive hidden-xs" alt="Statement from L. Rafael Reif, president of MIT: By bringing together cross-sector experts and leaders, GSW has built a global support network, empowering and accelerating entrepreneurship in emerging markets, from Seoul to Madrid, Cape Town to Santiago. And now Bangkok."/>
+<script>
+    /* COUNTDOWN */
+    // Set the date we're counting down to (Thailand is UTC+7)
+    var countDownDate = new Date(Date.UTC(2018, 2, 26, 1, 0, 0)).getTime(); // 8AM
+    console.log("ahepp")
+    // Update the count down every 1 second
+    var x = setInterval(function() {
 
-        <img src="splash/img/gsw-rafael-reif-mobile.jpg" class="img-responsive visible-xs-block" alt="Statement from L. Rafael Reif, president of MIT: By bringing together cross-sector experts and leaders, GSW has built a global support network, empowering and accelerating entrepreneurship in emerging markets, from Seoul to Madrid, Cape Town to Santiago. And now Bangkok."/>
-    </div>
-</div>
+        // Get todays date and time
+        var now = new Date().getTime();
+
+        // Find the distance between now an the count down date
+        var distance = countDownDate - now;
+
+        // Time calculations for days, hours, minutes and seconds
+        var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+        var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+        var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+        var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+        // Display the result in the following element
+        $("#days").html(days);
+        $("#hours").html(hours);
+        $("#minutes").html(minutes);
+        $("#seconds").html(seconds);
+
+        // If the count down is finished, write some text
+        if (distance < 0) {
+            clearInterval(x);
+            $("#countdown").html = "";
+        }
+    }, 1000);
+</script>
 <div class="section" id="registration-section">
     <div class="row text-center">
         <div class="col-xs-12">
@@ -73,6 +101,31 @@
                     </a>
                 </div>
             </div>
+        </div>
+    </div>
+</div>
+<div class="container-fluid">
+    <div class="row">
+        <img src="splash/img/gsw-rafael-reif.jpg" class="img-responsive hidden-xs" alt="Statement from L. Rafael Reif, president of MIT: By bringing together cross-sector experts and leaders, GSW has built a global support network, empowering and accelerating entrepreneurship in emerging markets, from Seoul to Madrid, Cape Town to Santiago. And now Bangkok."/>
+
+        <img src="splash/img/gsw-rafael-reif-mobile.jpg" class="img-responsive visible-xs-block" alt="Statement from L. Rafael Reif, president of MIT: By bringing together cross-sector experts and leaders, GSW has built a global support network, empowering and accelerating entrepreneurship in emerging markets, from Seoul to Madrid, Cape Town to Santiago. And now Bangkok."/>
+    </div>
+</div>
+<div class="section">
+    <div class="row">
+        <div class="col-xs-12">
+            <div class="section-header">
+                    <p>Why attend?</p>
+            </div>
+            <ul>
+                <li>Transform your ideas into successful startups by gaining valuable MIT expertise through workshops</li>
+                <li>Learn about cutting edge, innovative technologies from MIT & world experts through panel discussions</li>
+                <li>Participate in the GSW Competitions to receive mentorship from renowned entrepreneurs and gain access to exclusive VIP networking events</li>
+                <li>Display your company in the GSW Startup Showcase featuring protected time with investors</li>
+                <li>Gain access to top talent and emerging tech startups</li>
+                <li>Learn and understand the business landscape in the South East Asian market</li>
+                <li>Make fruitful connections with investors, government officials, corporate representatives, and more.</li>
+            </ul>
         </div>
     </div>
 </div>

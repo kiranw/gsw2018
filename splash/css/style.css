@@ -129,6 +129,11 @@ a:hover, a:focus {
     margin-top: 0;
 }
 
+#countdown {
+    margin-top: -5px;
+    background-color: #efefef;
+}
+
 #registration-section {
     margin-bottom: 50px;
 }
@@ -187,12 +192,17 @@ a:hover, a:focus {
 }
 
 .number {
-    font-size: 1.5em;
-    color: #dd4f33;
+    font-size: 3em;
+    color: #d43f3a;
+    font-weight: 700;
 }
 
 .number-label {
-    color: white;
+    color: #0e1e58;
+    text-transform: uppercase;
+    font-size: 0.8em;
+    letter-spacing: 2px;
+    font-weight: 700;
 }
 
 .brand-text {
@@ -359,8 +369,10 @@ a:hover, a:focus {
 .fa {
     font-size: 3em !important;
     text-align: center !important;
-    color: #0A1C3F !important;
+    /*color: #0A1C3F !important;*/
+    color: white;
     opacity: 0.8;
+    margin: 30px 0px;
 }
 
 .fa:hover {
@@ -718,9 +730,9 @@ a.anchor {
 }
 
 .location-header {
-    font-weight: 900;
+    font-weight: 700;
     text-transform: uppercase;
-    color: #515152;
+    color: #dd4f33;
     margin-bottom: 25px;
     font-size: 0.9em;
     letter-spacing: 0.03em;
@@ -731,11 +743,11 @@ a.anchor {
     font-weight: 400;
     color: #0e1e58;
     letter-spacing: 0.05em;
-    margin-bottom: 10px;
+    margin-bottom: 30px;
 }
 
 .location-address {
-    margin-top: 5px;
+    margin-top: 35px;
     margin-bottom: 30px;
 }
 .location-address p{
@@ -760,9 +772,18 @@ a.anchor {
 }
 /* FOOTER CSS */
 footer {
+    margin-top: 50px;
     background-color: rgb(6,23,56);
     padding-top: 40px;
     padding-bottom: 40px;
+}
+
+#footer-hr {
+    width: 80%;
+    opacity: 0.2;
+    margin: 0 auto;
+    margin-top: 1%;
+    margin-bottom: 1%;
 }
 
 .section-header-footer{
@@ -772,7 +793,7 @@ footer {
 
 .subscribe {
     color: rgba(255, 255, 255, 0.6);
-    margin-bottom: 60px;
+    margin-bottom: 0px;
 }
 
 .subscribe .form-control {
@@ -830,7 +851,7 @@ footer a:hover, footer-title a:focus {
 
 .copyright{
     text-align: center;
-    color:white;
+    color: rgba(255,255,255,0.6);
     margin-top: 40px;
 }
 
