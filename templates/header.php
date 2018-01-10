@@ -106,8 +106,18 @@
 </div>
 <div class="container-fluid">
     <div class="row">
-        <img src="splash/img/gsw-rafael-reif.jpg" class="img-responsive hidden-xs" alt="Statement from L. Rafael Reif, president of MIT: By bringing together cross-sector experts and leaders, GSW has built a global support network, empowering and accelerating entrepreneurship in emerging markets, from Seoul to Madrid, Cape Town to Santiago. And now Bangkok."/>
-
+        <div class="hidden-xs">
+            <div class="col-xs-1"></div>
+            <div class="col-xs-5">
+                <div class="quote">
+                    <p class="img-quote">By bringing together cross-sector experts</br>and leaders, GSW has built a global</br>support network, empowering and accelerating</br>entrepreneurship in emerging markets,</br>from Seoul to Madrid, Cape Town to Santiago.</br>And now Bangkok.</p>
+                    <p class="quote-name">L. Rafael Reif</p>
+                    <p class="quote-position">President of MIT</p>
+                </div>
+            </div>
+            <img src="splash/img/rafael_reif.jpg" class="img-responsive hidden-xs" alt="Statement from L. Rafael Reif, president of MIT: By bringing together cross-sector experts and leaders, GSW has built a global support network, empowering and accelerating entrepreneurship in emerging markets, from Seoul to Madrid, Cape Town to Santiago. And now Bangkok."/>
+        </div>
+<!--        <img src="splash/img/gsw-rafael-reif.jpg" class="img-responsive hidden-xs" alt="Statement from L. Rafael Reif, president of MIT: By bringing together cross-sector experts and leaders, GSW has built a global support network, empowering and accelerating entrepreneurship in emerging markets, from Seoul to Madrid, Cape Town to Santiago. And now Bangkok."/>-->
         <img src="splash/img/gsw-rafael-reif-mobile.jpg" class="img-responsive visible-xs-block" alt="Statement from L. Rafael Reif, president of MIT: By bringing together cross-sector experts and leaders, GSW has built a global support network, empowering and accelerating entrepreneurship in emerging markets, from Seoul to Madrid, Cape Town to Santiago. And now Bangkok."/>
     </div>
 </div>

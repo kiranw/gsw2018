@@ -517,6 +517,44 @@ a:hover, a:focus {
     max-height: initial;
 }
 
+.quote {
+    position: absolute;
+    color: white;
+    padding-top: 30%;
+}
+
+.img-quote {
+    font-size: 1.3em;
+    color: white;
+    font-weight: 500;
+}
+
+.quote-name {
+    color: #ccdde6;
+    font-size: 1.1em;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+    font-weight: 300;
+}
+
+.quote-position{
+    color: #ccdde6;
+    font-size: 0.85em;
+    margin-top: 0px;
+    font-weight: 500;
+}
+
+@media only screen and (max-width: 1034px) {
+    .img-quote {
+        font-size: 1em;
+        font-weight: 500;
+    }
+
+    .quote-name {
+        font-size: 1em;
+    }
+}
+
 .competition-img {
     width: 200px;
     height: 200px;
