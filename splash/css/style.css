@@ -452,6 +452,16 @@ a:hover, a:focus {
     }
 }
 
+@media (max-width: 768px){
+    .navbar-mobile{
+        background-clip: padding-box;
+        border-radius: 4px;
+        box-shadow: rgba(0, 0, 0, 0.17) 0px 6px 12px;
+        background-color: #213356;
+        margin-top: 20px;
+    }
+}
+
 .navbar-logo-small {
     height: 60px !important;
 }
