@@ -693,6 +693,13 @@ a.anchor {
     color: #0e1e58;
 }
 
+.endSpeakers {
+    text-align: center;
+    font-size: 1.2em;
+    font-weight: 800;
+    color: #dd4f33;
+}
+
 /* History CSS */
 #past_websites p {
     font-weight: 500;
