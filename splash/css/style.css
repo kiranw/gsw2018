@@ -14,6 +14,7 @@ a {
 
 a:hover, a:focus {
     text-decoration: none;
+    font-weight: 800 !important;
 }
 
 .banner {
@@ -576,14 +577,30 @@ a:hover, a:focus {
     height: 200px;
 }
 
-.competitions-highlights p.text-small {
-    margin-top: 10px;
-    font-size: .5em;
-    font-weight: 500;
-    text-transform: uppercase;
-    letter-spacing: 2px;
+
+.competitions-highlights span {
+    width: 100%;
+    float: left;
     padding: 0px 20px;
 }
+
+.link-img {
+    opacity: 0.6;
+}
+
+.link-img:focus, .link-img:hover {
+    opacity: 1;
+}
+
+/*.competitions-highlights a:hover,.competitions-highlights a:focus  {*/
+    /*font-weight: 800;*/
+/*}*/
+
+/*.competition-type:hover, .competition-type:focus{*/
+    /*font-weight: 800;*/
+/*}*/
+
+
 @media only screen and (min-width: 480px) {
     .competitions-highlights p.text-small {
         font-size: 0.8em;

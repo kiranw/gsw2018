@@ -83,21 +83,21 @@
             <br />
             <div class="row competitions-highlights text-center">
                 <div class="col-sm-4">
-                    <a href="epc.php">
-                        <img src="splash/img/epc-thumbnail.png" class="competition-img" />
-                        <p class="text-small">Elevator Pitch Competition</p>
+                    <a class="competition-type" href="epc.php">
+                        <img src="splash/img/epc-thumbnail.png" class="competition-img link-img" />
+                        <span class="text-small">Elevator Pitch Competition</span>
                     </a>
                 </div>
                 <div class="col-sm-4">
-                    <a href="bpc.php">
-                        <img src="splash/img/bpc-thumbnail.png" class="competition-img" />
-                        <p class="text-small">Business Plan Competition</p>
+                    <a class="competition-type" href="bpc.php">
+                        <img src="splash/img/bpc-thumbnail.png" class="competition-img link-img" />
+                        <span class="text-small">Business Plan Competition</span>
                     </a>
                 </div>
                 <div class="col-sm-4">
-                    <a href="startup-showcase.php">
-                        <img src="splash/img/showcase-thumbnail.png" class="competition-img" />
-                        <p class="text-small">Startup Showcase</p>
+                    <a class="competition-type" href="startup-showcase.php">
+                        <img src="splash/img/showcase-thumbnail.png" class="competition-img link-img" />
+                        <span class="text-small">Startup Showcase</span>
                     </a>
                 </div>
             </div>
