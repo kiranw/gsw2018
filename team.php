@@ -3,45 +3,45 @@
     include('templates/nav-bar.php');
 ?>
 
-<div class="parallax-window header" data-parallax="scroll" data-image-src="headers/img/we_header.jpg">
+<div class="parallax-window header" data-parallax="scroll" data-image-src="headers/img/we-header-2.png">
     <h1 class="parallax-text">
         Who we are
     </h1>
 </div>
 <div class="section" id="team-section">
-    <div class="section-header-light">
-        <p>Our team consists of individuals across all parts of the MIT campus, and is supported by an accomplished advisory board.</p>
+    <div>
+        Our team consists of individuals across all parts of the MIT campus, and is supported by an accomplished advisory board.
     </div>
 
     <br />
 
-    <p class="section-header section-header-page">Advisory Board</p>
-    <div class="row text-center">
+    <div class="section-header section-header-page">Advisory Board</div>
+    <div class="row text-center team">
         <div class="col-md-3">
             <img src="team/img/georgina.jpeg" class="team-picture" alt="" />
-            <p>Georgina Campbell Flatter</p>
-            <p><small>Executive Director of the Legatum Center</small></p>
+            <div class="team-name">Georgina Campbell Flatter</div>
+            <div class="team-role"><small>Executive Director of the Legatum Center</small></div>
         </div>
         <div class="col-md-3">
             <img src="team/img/sarah.jpg" class="team-picture" alt="" />
-            <p>Sarah Jane Maxted</p>
-            <p><small>Executive Director of the MIT Regional Entrepreneurship Program</small></p>
+            <div class="team-name">Sarah Jane Maxted</div>
+            <div class="team-role"><small>Executive Director of the MIT Regional Entrepreneurship Program</small></div>
         </div>
         <div class="col-md-3">
             <img src="team/img/aditi.jpg" class="team-picture" alt="" />
-            <p>Aditi Gupta</p>
-            <p><small>MIT GSW 2017 Lead</small></p>
+            <div class="team-name">Aditi Gupta</div>
+            <div class="team-role"><small>MIT GSW 2017 Lead</small></div>
         </div>
         <div class="col-md-3">
             <img src="team/img/rami.jpg" class="team-picture" alt="" />
-            <p>Rami Abi Akl</p>
-            <p><small>MIT GSW 2017 Lead</small></p>
+            <div class="team-name">Rami Abi Akl</div>
+            <div class="team-role"><small>MIT GSW 2017 Lead</small></div>
         </div>
     </div>
 
     <br />
 
-    <p class="section-header section-header-page">Organizing team</p>
+    <div class="section-header section-header-page">Organizing Team</div>
 </div>
 
 <?php
