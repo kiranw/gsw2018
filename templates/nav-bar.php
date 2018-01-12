@@ -13,7 +13,7 @@
     <meta name="viewport" content="width=device-width,initial-scale=1">
 </head>
 <body>
-<nav class="navbar navbar-default navbar-fixed-top">
+<nav class="navbar navbar-default navbar-fixed-top" id="nav">
     <div class="container-fluid">
         <!-- Brand and toggle get grouped for better mobile display -->
         <div class="navbar-header">
@@ -29,7 +29,7 @@
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse navbar-mobile" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav">
-                <li class="active"><a href="index.php">Home<span class="sr-only">(current)</span></a></li>
+                <li><a href="index.php">Home<span class="sr-only">(current)</span></a></li>
                 <li><a href="index.php#registration-section">Registration</a></li>
                 <li><a href="speakers.php">Speakers</a></li>
                 <!--li><a href="schedule.php">Schedule</a></li-->
@@ -81,5 +81,20 @@ $scripts = "
                 $('.navbar').removeClass('navbar-condensed');
             }
         });
+
+        (function() {
+            var nav = document.getElementById('nav'),
+            anchor = nav.getElementsByTagName('a'),
+            current = window.location.href.split('/')[window.location.href.split('/').length-1];
+                        
+            for (var i = 0; i < anchor.length; i++) {
+                var url = anchor[i].href.split('/')[anchor[i].href.split('/').length-1];
+
+                if(url == current) {
+                    
+                        anchor[i].className = \"active\";
+                }
+            }
+        })();
     </script>";
 ?>
