@@ -21,8 +21,8 @@
       <p>Here's a map of the past venues for MIT GSW:</p>
 
       <p class="text-center">
-        <a href="splash/img/gsw-history-map-2018-full-size.png" title="Click to open larger version of the map">
-          <img src="splash/img/gsw-history-map-2018-full-size.png" class="img-responsive full-width" alt="Map of countries" />
+        <a href="splash/img/gsw-history-map-2018-high.png" title="Click to open larger version of the map">
+          <img src="splash/img/gsw-history-map-2018-high.png" class="img-responsive full-width" alt="Map of countries" />
         </a>
       </p>
       <br />
