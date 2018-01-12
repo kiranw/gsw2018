@@ -58,7 +58,7 @@
     <div class="container">
         <div class="row">
             <div class="copyright col-md-12">
-                Copyright ©2011–2017 Massachusetts Institute of Technology. All rights reserved.<br>
+                Copyright ©2011–2018 Massachusetts Institute of Technology. All rights reserved.<br>
                 For more information please contact <a href="mailto:gsw-tech@mit.edu">gsw-tech@mit.edu</a>
             </div>
         </div>

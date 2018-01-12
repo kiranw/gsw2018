@@ -43,6 +43,7 @@
 
     <div class="section-header section-header-page">Organizing Team</div>
 </div>
+<div class="section" id="team-section-expanded"></div>
 
 <?php
 $scripts = "
@@ -67,13 +68,12 @@ d3.csv(\"data/team.csv\", function(error, teams) {
                     +'<div class=\"team-association\"><img class=\"team-picture-association\" src=\"team/img/' + team.association + '\"/>'
                     +'</div></div>';
 
-//                teamInfoMarkup = '<div class=\"row team-expanded-bio\" id=\"team' + team.name.replace(\" \",\"\") + '\">' +
-//                    imageMarkup + '</div><div class=\"col-sm-6 col-md-9\">'
-//                    +'<div class=\"team-expanded-name\">' +  team.name + '</div>'
-//                    +'<div class=\"team-expanded-role\">' +  team.role + '</div>'
-//                    +'<div class=\"team-expanded-association\">' +  team.association + '</div>'
-//                    +'<div class=\"team-expanded-text\">' + team.bio + '</div></div></div>';
-//                $(teamInfoMarkup).appendTo(\"#team-section-expanded\");
+                teamInfoMarkup = '<div class=\"row team-expanded-bio\" id=\"team' + team.name.replace(\" \",\"\") + '\">' +
+                    imageMarkup + '</div><div class=\"col-sm-6 col-md-9\">'
+                    +'<div class=\"team-expanded-name\">' +  team.name + '</div>'
+                    +'<div class=\"team-expanded-role\">' +  team.role + '</div>'
+                    +'<div class=\"team-expanded-text\">' + team.bio + '</div></div></div>';
+                $(teamInfoMarkup).appendTo(\"#team-section-expanded\");
             }
             else {
                 markup += '<div class=\"team col-sm-6 col-md-3\"></div>';

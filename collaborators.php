@@ -1,11 +1,11 @@
 <?php
-    $pageTitle = 'Partners | MIT Global Startup Workshop 2018';
+    $pageTitle = 'Collaborators | MIT Global Startup Workshop 2018';
     include('templates/nav-bar.php');
 ?>
 
 <div class="parallax-window header" data-parallax="scroll" data-image-src="headers/img/header1.jpg">
     <h1 class="parallax-text">
-        Partners
+        Collaborators
     </h1>
 </div>
 <div class="section" id="team-section">
@@ -17,22 +17,22 @@
     <div class="row text-center">
         <div class="col-md-3">
             <img src="team/img/rami.jpg" class="team-picture" alt="" />
-            <div class="team-name">Partner</div>
+            <div class="team-name">Name</div>
             <div class="team-role"><small>Organization</small></div>
         </div>
         <div class="col-md-3">
             <img src="team/img/rami.jpg" class="team-picture" alt="" />
-            <div class="team-name">Partner</div>
+            <div class="team-name">Name</div>
             <div class="team-role"><small>Organization</small></div>
         </div>
         <div class="col-md-3">
             <img src="team/img/rami.jpg" class="team-picture" alt="" />
-            <div class="team-name">Partner</div>
+            <div class="team-name">Name</div>
             <div class="team-role"><small>Organization</small></div>
         </div>
         <div class="col-md-3">
             <img src="team/img/rami.jpg" class="team-picture" alt="" />
-            <div class="team-name">Partner</div>
+            <div class="team-name">Name</div>
             <div class="team-role"><small>Organization</small></div>
         </div>
     </div>
@@ -48,7 +48,7 @@
 $scripts = "
 <script src=\"splash/js/d3.js\"></script>
 <script>
-d3.csv(\"data/team.csv\", function(error, teams) {
+d3.csv(\"data/local_team.csv\", function(error, teams) {
       if (error) throw error;
 
     var totalColumns = 4;
@@ -67,12 +67,12 @@ d3.csv(\"data/team.csv\", function(error, teams) {
                     +'<div class=\"team-association\"><img class=\"team-picture-association\" src=\"team/img/' + team.association + '\"/>'
                     +'</div></div>';
 
-//                teamInfoMarkup = '<div class=\"row team-expanded-bio\" id=\"team' + team.name.replace(\" \",\"\") + '\">' +
-//                    imageMarkup + '</div><div class=\"col-sm-6 col-md-9\">'
-//                    +'<div class=\"team-expanded-name\">' +  team.name + '</div>'
-//                    +'<div class=\"team-expanded-role\">' +  team.role + '</div>'
-//                    +'<div class=\"team-expanded-association\">' +  team.association + '</div>'
-//                    +'<div class=\"team-expanded-text\">' + team.bio + '</div></div></div>';
+                teamInfoMarkup = '<div class=\"row team-expanded-bio\" id=\"team' + team.name.replace(\" \",\"\") + '\">' +
+                    imageMarkup + '</div><div class=\"col-sm-6 col-md-9\">'
+                    +'<div class=\"team-expanded-name\">' +  team.name + '</div>'
+                    +'<div class=\"team-expanded-role\">' +  team.role + '</div>'
+                    +'<div class=\"team-expanded-association\">' +  team.association + '</div>'
+                    +'<div class=\"team-expanded-text\">' + team.bio + '</div></div></div>';
 //                $(teamInfoMarkup).appendTo(\"#team-section-expanded\");
             }
             else {
