@@ -687,15 +687,33 @@ a.anchor {
 }
 
 /* History CSS */
-#past_websites p {
-    font-weight: 500;
-    margin-bottom: 5px;
+
+.history-place {
     font-size: 0.7em;
-    color: #515152;
+    margin-top: 5px;
     text-transform: uppercase;
-    padding: 5px 0;
+    font-weight: 700;
+    color: black !important;
+    opacity: 0.7;
+}
+.history-year {
+    font-weight: 500;
+    font-size: 0.7em;
+    text-transform: uppercase;
+    color: #515152;
+    display: block;
+    margin-bottom: 20px;
+    opacity: 0.7;
 }
 
+.history-item {
+    opacity: 0.9 !important;
+}
+
+.history-item:hover {
+    opacity: 1 !important;
+    font-weight: 800 !important;
+}
 /* TEAM CSS */
 .team-picture {
     object-fit: cover;
