@@ -6,7 +6,7 @@
         </div>
 
         <div class="brand-title">tools for innovation-driven entrepreneurship</div>
-        <div class="brand-subtitle">in partnership with Sasin School of Management and the MIT Association of Thailand</div>
+        <div class="brand-subtitle">in collaboration with Sasin School of Management and the MIT Association of Thailand</div>
         <div class="brand-text"><span class="brand-highlight">Bangkok, Thailand</span></div>
         <div class="brand-text"><span class="brand-highlight">26-28 March, 2018</span></div>
     </div>

@@ -17,23 +17,23 @@
     <div class="row text-center">
         <div class="col-md-3">
             <img src="team/img/rami.jpg" class="team-picture" alt="" />
-            <p>Partner</p>
-            <p><small>Organization</small></p>
+            <div class="team-name">Partner</div>
+            <div class="team-role"><small>Organization</small></div>
         </div>
         <div class="col-md-3">
             <img src="team/img/rami.jpg" class="team-picture" alt="" />
-            <p>Partner</p>
-            <p><small>Organization</small></p>
+            <div class="team-name">Partner</div>
+            <div class="team-role"><small>Organization</small></div>
         </div>
         <div class="col-md-3">
             <img src="team/img/rami.jpg" class="team-picture" alt="" />
-            <p>Partner</p>
-            <p><small>Organization</small></p>
+            <div class="team-name">Partner</div>
+            <div class="team-role"><small>Organization</small></div>
         </div>
         <div class="col-md-3">
             <img src="team/img/rami.jpg" class="team-picture" alt="" />
-            <p>Partner</p>
-            <p><small>Organization</small></p>
+            <div class="team-name">Partner</div>
+            <div class="team-role"><small>Organization</small></div>
         </div>
     </div>
 
