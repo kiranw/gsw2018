@@ -40,7 +40,7 @@
 
             <br />
             <div class="text-center">
-                <a class="btn btn-default" href="#" role="button">Apply now to BPC</a>
+                <a class="btn btn-default register-button" href="#" role="button">Apply now to BPC</a>
             </div>
         </div>
     </div>

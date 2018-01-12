@@ -48,7 +48,7 @@
 
             <br />
             <div class="text-center">
-                <a class="btn btn-default" href="#" role="button">Apply now to EPC</a>
+                <a class="btn btn-default register-button" href="#" role="button">Apply now to EPC</a>
             </div>
         </div>
     </div>
