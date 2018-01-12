@@ -32,7 +32,7 @@
                 <li class="active"><a href="index.php">Home<span class="sr-only">(current)</span></a></li>
                 <li><a href="index.php#registration-section">Registration</a></li>
                 <li><a href="speakers.php">Speakers</a></li>
-                <li><a href="#">Schedule</a></li>
+                <!--li><a href="schedule.php">Schedule</a></li-->
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                         Competitions <span class="caret"></span>
@@ -58,7 +58,7 @@
                         <div class="dropdown-divider"></div>
                         <a class="dropdown-item" href="team.php">Who we are</a>
                         <div class="dropdown-divider"></div>
-                        <a class="dropdown-item" href="partners.php">Partners</a>
+                        <a class="dropdown-item" href="collaborators.php">Collaborators</a>
                         <div class="dropdown-divider"></div>
                         <a class="dropdown-item" href="sponsors.php">Sponsors</a>
                     </div>
