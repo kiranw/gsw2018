@@ -446,7 +446,6 @@ a:hover, a:focus {
 #navbar-logo {
     height: 60px;
     transition:height 0.3s ease-out;
-    margin-top: -20px;
 }
 @media only screen and (min-width: 768px) {
     #navbar-logo {
