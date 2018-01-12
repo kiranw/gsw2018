@@ -20,6 +20,7 @@
         <div class="col-md-6 location-column">
             <div class="location-header">28th March (Day 3)</div>
             <div class="location-name"><a href="#">Sasin School of Management</a></div>
+            <br>
             <div class="location-address">
                 อาคาร ศศปาฐศาลา ซอย จุฬาฯ 12<br>
                 Khwaeng Wang Mai, Khet Pathum Wan,<br>

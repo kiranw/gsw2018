@@ -449,7 +449,7 @@ a:hover, a:focus {
 }
 @media only screen and (min-width: 768px) {
     #navbar-logo {
-        height: 80px;
+        height: 50px;
     }
 }
 
@@ -462,6 +462,7 @@ a:hover, a:focus {
         margin-top: 20px;
     }
 }
+
 
 .navbar-logo-small {
     height: 60px !important;
@@ -479,11 +480,25 @@ a:hover, a:focus {
     background-color: transparent;
 }
 
+
 .navbar-default .navbar-nav>li>a {
     color: rgba(255,255,255,0.5);
     letter-spacing: 0.08em;
     font-size: 0.9em;
 }
+
+@media (max-width: 960px) and (min-width: 870px) {
+    .navbar-default .navbar-nav>li>a {
+        font-size: 0.75em;
+    }
+}
+
+@media (max-width: 870px) {
+    .navbar-default .navbar-nav>li>a {
+        font-size: 0.7em;
+    }
+}
+
 
 .dropdown-menu{
     padding: 15px;
@@ -898,7 +913,7 @@ footer {
 /* General */
 .btn, #subscribe-button{
     border: none;
-    padding: 5px 10px;
+    /*padding: 12px 16px;*/
     font-weight: 500;
     text-transform: uppercase;
     margin-bottom: 20px;
@@ -915,6 +930,10 @@ footer {
     color: white;
     background-color: #dd4f33;
     border: none;
+}
+
+.register-button {
+    padding: 12px 16px;
 }
 
 
