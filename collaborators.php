@@ -48,7 +48,7 @@
 $scripts = "
 <script src=\"splash/js/d3.js\"></script>
 <script>
-d3.csv(\"data/team.csv\", function(error, teams) {
+d3.csv(\"data/local_team.csv\", function(error, teams) {
       if (error) throw error;
 
     var totalColumns = 4;
