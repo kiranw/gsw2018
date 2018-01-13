@@ -528,6 +528,12 @@ img.top-background {
     font-weight: 600;
 }
 
+@media (max-width: 767px) {
+    .navbar-nav .open .dropdown-menu {
+        font-size: 0.7em;
+    }
+}
+
 .dropdown-divider {
     border: 1px solid #2f3f5f;
     margin: 10px -8px;
@@ -643,6 +649,39 @@ img.top-background {
 
 .marginTop{
     margin-top: 30px;
+}
+.marginTop2 {
+    margin-top: 60px;
+}
+
+.list-competition {
+    margin-bottom: 5px;
+}
+
+.competition-slogan {
+    color: #dd4f33;
+    font-weight: 300;
+    font-size: 1em;
+}
+
+.date {
+    margin-bottom: 20px;
+    color: #0e1e58;
+    font-size: 0.7em;
+}
+
+.competition-subtitle{
+    border-bottom: 2px solid rgba(100, 121, 162,0.3);
+    padding-bottom: 5px;
+    color: #0e1e58;
+    font-weight: 700;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    font-size: 1.5em;
+}
+
+.watchText{
+    text-align: center;
 }
 
 /* SPEAKER CSS */
