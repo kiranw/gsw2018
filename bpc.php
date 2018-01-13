@@ -45,11 +45,11 @@
                 <div class="col-md-6 col-md-offset-3">
                     <h2 class="competition-subtitle">Prizes</h2>
                     <ul>
-                        <li class="list-competition">A cash prize of <strong>$XX</strong></li>
+                        <li class="list-competition">A cash prize of <strong>up to $15,000</strong></li>
                         <li class="list-competition">More prizes to be announced!</li>
                     </ul>
                 </div>
-                <div class="row">
+                <div class="row marginTop">
                     <div class="col-xs-12">
                         <div class="text-center">
                             <a class="btn btn-default register-button" href="http://mit.co1.qualtrics.com/jfe/form/SV_6rmPilYlw4kVkMZ" role="button">Apply now to BPC</a>
