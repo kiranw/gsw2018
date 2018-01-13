@@ -76,7 +76,7 @@
             <div class="section-subheader text-center">
                 <p><strong>Register</strong> now to guarantee your spot at <strong>MIT Global Startup Workshop 2018</strong>!</p>
             </div>
-            <a class="btn btn-default registration-button" href="#" role="button">Register to attend</a>
+            <a class="btn btn-default registration-button" href="registration.php" role="button">Register to attend</a>
             <br /><hr><br />
 
             <h2>Learn more about our competitions</h2>
@@ -117,7 +117,6 @@
             </div>
             <img src="splash/img/rafael_reif.jpg" class="img-responsive hidden-xs" alt="Statement from L. Rafael Reif, president of MIT: By bringing together cross-sector experts and leaders, GSW has built a global support network, empowering and accelerating entrepreneurship in emerging markets, from Seoul to Madrid, Cape Town to Santiago. And now Bangkok."/>
         </div>
-<!--        <img src="splash/img/gsw-rafael-reif.jpg" class="img-responsive hidden-xs" alt="Statement from L. Rafael Reif, president of MIT: By bringing together cross-sector experts and leaders, GSW has built a global support network, empowering and accelerating entrepreneurship in emerging markets, from Seoul to Madrid, Cape Town to Santiago. And now Bangkok."/>-->
         <img src="splash/img/gsw-rafael-reif-mobile.jpg" class="img-responsive visible-xs-block" alt="Statement from L. Rafael Reif, president of MIT: By bringing together cross-sector experts and leaders, GSW has built a global support network, empowering and accelerating entrepreneurship in emerging markets, from Seoul to Madrid, Cape Town to Santiago. And now Bangkok."/>
     </div>
 </div>

@@ -12,6 +12,5 @@
 
     include('templates/location.php');
     include('templates/sponsors.php');
-
     include('templates/footer.php');
 ?>
