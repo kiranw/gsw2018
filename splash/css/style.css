@@ -639,6 +639,9 @@ a:hover, a:focus {
 .marginTop{
     margin-top: 30px;
 }
+.marginTop2 {
+    margin-top: 60px;
+}
 
 .list-competition {
     margin-bottom: 5px;
@@ -664,6 +667,10 @@ a:hover, a:focus {
     margin-top: 30px;
     margin-bottom: 20px;
     font-size: 1.5em;
+}
+
+.watchText{
+    text-align: center;
 }
 
 /* SPEAKER CSS */

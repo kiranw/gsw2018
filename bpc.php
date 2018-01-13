@@ -34,7 +34,7 @@
                 <div class="col-md-6">
                     <h2 class="competition-subtitle">Eligibility</h2>
                     <p>Who should apply?</p>
-                    <br>
+                    <br />
                     <ul>
                         <li class="list-competition">Any early-stage startups currently seeking outside equity capital</li>
                         <li class="list-competition">Startups must have raised less than $250,000 USD from angel investors, venture capital, or other equity sources to be eligible</li>
