@@ -17,30 +17,34 @@
                 </div>
                 <div class="col-md-1"></div>
                 <div class="col-md-9 marginTop">
-                    <p>
-                        Are you a student entrepreneur or an aspiring business owner? The MIT GSW Business Plan Competition offers you an opportunity to gain the seed money you need to take your company to the next level.
-                    </p>
+                    <p class="date">26 March Monday</p>
+                    <p class="competition-slogan">Are you a student entrepreneur or an aspiring business owner? The MIT GSW Business Plan Competition offers you an opportunity to gain the seed money you need to take your company to the next level.</p>
                 </div>
             </div>
-            <p>
-                Selected finalists for our Business Plan Competition will receive direct feedback from judges and mentors, and have a chance to win prizes to advance their startups!
-            </p>
+            <div class="row">
+                <div class="col-md-6">
+                    <h2 class="competition-subtitle">Format</h2>
+                    <p>Selected finalists for our Business Plan Competition will receive direct feedback from judges and mentors, and have a chance to win prizes to advance their startups</p>
+                    <ul>
+                        <li class="list-competition">Up to <span style="font-weight: 800">12 teams</span> present their current startup to a panel of judges</li>
+                        <li class="list-competition">Receive <span style="font-weight: 800">1-on-1 mentorship</span> from entrepreneurs and business leaders from MIT and Thailand</li>
+                        <li class="list-competition">Startups selected for the BPC will <span style="font-weight: 800">automatically participate in the Startup Showcase</span> as well</li>
+                    </ul>
+                </div>
+                <div class="col-md-6">
+                    <h2 class="competition-subtitle">Eligibility</h2>
+                    <p>Who should apply?</p>
+                    <br>
+                    <ul>
+                        <li class="list-competition">Any early-stage startups currently seeking outside equity capital</li>
+                        <li class="list-competition">Startups must have raised less than $250,000 USD from angel investors, venture capital, or other equity sources to be eligible</li>
+                    </ul>
 
-            <ul>
-                <li>Up to 12 teams present their current startup to a panel of judges</li>
-                <li>Receive 1-on-1 mentorship from entrepreneurs and business leaders from MIT and Thailand</li>
-                <li>Startups selected for the BPC will automatically participate in the Startup Showcase as well</li>
-            </ul>
-            <br />
-            <h2>Who should apply?</h2>
-            <ul>
-              <li>Any early-stage startups currently seeking outside equity capital</li>
-              <li>Startups must have raised less than $250,000 USD from angel investors, venture capital, or other equity sources to be eligible</li>
-            </ul>
-
-            <br />
-            <div class="text-center">
-                <a class="btn btn-default register-button" href="#" role="button">Apply now to BPC</a>
+                    <br />
+                </div>
+            </div>
+            <div class="text-center marginTop">
+                <a class="btn btn-default register-button" href="#" role="button">Apply now to the BPC</a>
             </div>
         </div>
     </div>
