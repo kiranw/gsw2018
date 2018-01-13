@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>MIT Global Startup Workshop | Bangkok, Thailand, 2018</title>
+    <title><?= $pageTitle ?></title>
     <link rel="shortcut icon" href="http://gsw.mit.edu/2018/favicon.ico"/>
 
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
@@ -30,7 +30,7 @@
         <div class="collapse navbar-collapse navbar-mobile" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav">
                 <li><a href="index.php">Home<span class="sr-only">(current)</span></a></li>
-                <li><a href="index.php#registration-section">Registration</a></li>
+                <li><a href="registration.php">Registration</a></li>
                 <li><a href="speakers.php">Speakers</a></li>
                 <!--li><a href="schedule.php">Schedule</a></li-->
                 <li class="nav-item dropdown">

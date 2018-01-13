@@ -46,7 +46,7 @@
 <div class="section" id="team-section-expanded"></div>
 
 <?php
-$scripts = "
+$scripts .= "
 <script src=\"splash/js/d3.js\"></script>
 <script>
 d3.csv(\"data/team.csv\", function(error, teams) {
