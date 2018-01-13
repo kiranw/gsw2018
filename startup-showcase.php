@@ -3,7 +3,7 @@
     include('templates/nav-bar.php');
 ?>
 
-<div class="parallax-window header" data-parallax="scroll" data-image-src="headers/img/startup-showcase-header.png">
+<div class="parallax-window header" data-parallax="scroll" data-image-src="headers/img/epc-header.png">
     <h1 class="parallax-text">
         Startup Showcase
     </h1>
@@ -18,11 +18,11 @@
                 <div class="col-md-1"></div>
                 <div class="col-md-9 marginTop">
                     <p class="date">26 March, Monday</p>
-<!--                    <p class="competition-slogan">Write nice slogan phrase</p>-->
+                    <p class="competition-slogan">Is your startup looking for visibility?<br>The Startup Showcase offers a unique opportunity to leverage our network to help your business!</p>
                 </div>
             </div>
             <div class="row">
-                <div class="col-md-6">
+                <div class="col-xs-6">
                     <h2 class="competition-subtitle">Format</h2>
                     <p>The MIT GSW Startup Showcase offers the opportunity to:</p>
                     <ul>
@@ -43,8 +43,12 @@
                     <br />
                 </div>
             </div>
-            <div class="text-center">
-                <a class="btn btn-default register-button" href="#" role="button">Apply now<br>to Startup Showcase</a>
+            <div class="row">
+                <div class="col-xs-12">
+                    <div class="text-center">
+                        <a class="btn btn-default register-button" href="http://mit.co1.qualtrics.com/jfe/form/SV_6rmPilYlw4kVkMZ" role="button">Apply now to Startup Showcase</a>
+                    </div>
+                </div>
             </div>
         </div>
     </div>

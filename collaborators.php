@@ -5,7 +5,7 @@
 
 <div class="parallax-window header" data-parallax="scroll" data-image-src="headers/img/header1.jpg">
     <h1 class="parallax-text">
-        Collaborators
+        Our collaborators
     </h1>
 </div>
 <div class="section" id="team-section">
@@ -45,7 +45,7 @@
 </div>
 
 <?php
-$scripts = "
+$scripts .= "
 <script src=\"splash/js/d3.js\"></script>
 <script>
 d3.csv(\"data/local_team.csv\", function(error, teams) {
