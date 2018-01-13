@@ -10,6 +10,13 @@
         <div class="brand-text"><span class="brand-highlight">Bangkok, Thailand</span></div>
         <div class="brand-text"><span class="brand-highlight">26-28 March, 2018</span></div>
     </div>
+    <div class="banner">
+        <div id="partner-icons">
+            <img src="splash/img/logos/mitthailand.png" class="partner-icon">
+            <img src="splash/img/logos/sasinsplash.png" class="partner-icon">
+        </div>
+    </div>
+
     <!-- Image while loading -->
     <img class="top-background visible-xs-block" src="splash/img/top_background_mobile.jpg" />
 

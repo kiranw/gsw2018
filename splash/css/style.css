@@ -404,7 +404,7 @@ img.top-background {
 @media only screen and (min-width: 768px) {
     #partner-icons {
         display: block;
-        top: 5%;
+        top: 12%;
         right: 5%;
         position: absolute;
     }
