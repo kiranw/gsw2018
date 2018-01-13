@@ -13,8 +13,8 @@
             </div>
         </div>
         <div class="row text-center">
-            <div class="col-xs-6 col-md-3"></div>
-            <div class="col-xs-8 col-md-6 row">
+            <div class="col-md-offset-2 col-md-8">
+                <div class="row">
                 <div class="col-xs-4 col-md-offset-1 col-md-2">
                     <a href="https://twitter.com/MITGSW"><span class="fa fa-twitter-square sm-icon"></span></a>
                 </div>
@@ -29,10 +29,11 @@
                 </div>
                 <div class="col-xs-4 col-md-2">
                     <a href="mailto:gsw-tech@mit.edu"><span class="fa fa-envelope-square sm-icon"></span></a>
-                </div>
+                </div></div>
             </div>
-            <div class="col-xs-6 col-md-3"></div>
         </div>
+        
+        <br />
 
         <hr id="footer-hr">
 
