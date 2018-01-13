@@ -17,7 +17,7 @@
                 </div>
                 <div class="col-md-1"></div>
                 <div class="col-md-9 marginTop">
-                    <p class="date">26 March Monday</p>
+                    <p class="date">26 March, Monday</p>
                     <p class="competition-slogan">Write nice slogan phrase</p>
                 </div>
             </div>

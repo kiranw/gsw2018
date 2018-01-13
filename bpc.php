@@ -17,7 +17,7 @@
                 </div>
                 <div class="col-md-1"></div>
                 <div class="col-md-9 marginTop">
-                    <p class="date">26 March Monday</p>
+                    <p class="date">28 March, Wednesday</p>
                     <p class="competition-slogan">Are you a student entrepreneur or an aspiring business owner? The MIT GSW Business Plan Competition offers you an opportunity to gain the seed money you need to take your company to the next level.</p>
                 </div>
             </div>

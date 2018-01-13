@@ -17,15 +17,15 @@
                 </div>
                 <div class="col-md-1"></div>
                 <div class="col-md-9 marginTop">
-                    <h2>What is it?</h2>
-                    <ul>
-                        <li>Up to 30 entrepreneurs pitch their idea to a panel of judges in a fast-paced, rapid fire competition </li>
-                        <li>Each participant pitches for up to 1 minute</li>
-                    </ul>
-                    <br />
+                    <p class="date">27 March, Tuesday</p>
                 </div>
             </div>
-
+            <h2>What is it?</h2>
+            <ul>
+                <li>Up to 30 entrepreneurs pitch their idea to a panel of judges in a fast-paced, rapid fire competition </li>
+                <li>Each participant pitches for up to 1 minute</li>
+            </ul>
+            <br />
             <h2>Who should apply?</h2>
             <ul>
                 <li>Any entrepreneur with an idea or problem they want to solve</li>
