@@ -521,6 +521,12 @@ a:hover, a:focus {
     font-weight: 600;
 }
 
+@media (max-width: 767px) {
+    .navbar-nav .open .dropdown-menu {
+        font-size: 0.7em;
+    }
+}
+
 .dropdown-divider {
     border: 1px solid #2f3f5f;
     margin: 10px -8px;
