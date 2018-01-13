@@ -18,7 +18,7 @@
                 <div class="col-md-1"></div>
                 <div class="col-md-9 marginTop">
                     <p class="date">27 March, Tuesday</p>
-                    <p>Have an amazing business idea?<br>You have 60 seconds to convince the judges it's worth it, and you might land the <strong>$XX</strong> prize!</p>
+                    <p class="competition-slogan">Have an amazing business idea? You have 60 seconds to convince the judges it's worth it, and you might land the <strong>$1,000</strong> prize!</p>
                     <br />
                 </div>
             </div>
