@@ -43,8 +43,6 @@
                         <a class="dropdown-item" href="bpc.php">Business Plan Competition</a>
                         <div class="dropdown-divider"></div>
                         <a class="dropdown-item" href="startup-showcase.php">Startup Showcase</a>
-                        <div class="dropdown-divider"></div>
-                        <a class="dropdown-item" href="mentors.php">Our mentors</a>
                     </div>
                 </li>
             </ul>
@@ -57,8 +55,6 @@
                         <a class="dropdown-item" href="history.php">History</a>
                         <div class="dropdown-divider"></div>
                         <a class="dropdown-item" href="team.php">Who we are</a>
-                        <div class="dropdown-divider"></div>
-                        <a class="dropdown-item" href="collaborators.php">Collaborators</a>
                         <div class="dropdown-divider"></div>
                         <a class="dropdown-item" href="sponsors.php">Sponsors</a>
                     </div>
