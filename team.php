@@ -74,9 +74,10 @@ d3.csv(\"data/team.csv\", function(error, teams) {
                 + '<div class=\"col-xs-12\"><h2>' + team.category + '</h2></div>';
         }
 
-        var imageMarkup = '<div class=\"team col-sm-6 col-md-3\">'
-            + '<a href=\"#' + anchor + '\"><img class=\"team-picture\" src=\"team/img/' + team.imgpath + '\"></a>';
-        markup += imageMarkup
+        var column_size = team.category == \"Leads\" ? \"col-md-4\" : \"col-sm-6 col-md-3\";
+
+        markup += '<div class=\"team ' + column_size + '\">'
+            +'<a href=\"#' + anchor + '\"><img class=\"team-picture\" src=\"team/img/' + team.imgpath + '\"></a>'
             +'<div class=\"team-name\">' +  team.name + '</div>'
             +'<div class=\"team-role\">GSW ' +  team.role + '</div>'
             +'<div class=\"team-area\">' +  team.area + '</div>'
@@ -84,7 +85,9 @@ d3.csv(\"data/team.csv\", function(error, teams) {
 
         teamInfoMarkup = '<div class=\"row team-expanded-bio\">'
             + '<span class=\"anchor\" id=\"' + anchor + '\"></span>'
-            + imageMarkup + '</div><div class=\"col-sm-6 col-md-9\">'
+            + '<div class=\"team col-md-5 col-lg-3 text-center\">'
+            + '<a href=\"#' + anchor + '\"><img class=\"team-picture\" src=\"team/img/' + team.imgpath + '\"></a>'
+            + '</div><div class=\"col-md-7 col-lg-9\">'
             +'<div class=\"team-expanded-name\">' +  team.name + '</div>'
             +'<div class=\"team-expanded-role\">' +  team.role + '</div>'
             +'<div class=\"team-expanded-text\">' + team.bio + '</div></div></div>';
