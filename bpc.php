@@ -37,29 +37,26 @@
                 </div>
                 <div class="col-md-6">
                     <h2 class="competition-subtitle">Eligibility</h2>
-                    <p class="competition-text">Who should apply?</p>
                     <ul class="competition-text">
                         <li class="list-competition">Any early-stage startups currently seeking outside equity capital</li>
                         <li class="list-competition">Startups must have raised less than $250,000 USD from angel investors, venture capital, or other equity sources to be eligible</li>
                     </ul>
 
-                    <br />
-                </div>
-            </div>
-
-            <div class="row marginTop">
-                <div class="col-md-6">
-                    <h2 class="competition-subtitle">Prizes</h2>
-                    <ul class="competition-text">
-                        <li class="list-competition">A cash prize of <strong>up to $15,000 USD</strong></li>
-                        <li class="list-competition">More prizes to be announced!</li>
-                    </ul>
+                    <div class="row">
+                        <div class="col-xs-12">
+                            <h2 class="competition-subtitle">Prizes</h2>
+                            <ul class="competition-text">
+                                <li class="list-competition">A cash prize of <strong>up to $15,000 USD</strong></li>
+                                <li class="list-competition">More prizes to be announced!</li>
+                            </ul>
+                        </div>
+                    </div>
                 </div>
             </div>
 
             <div class="row marginTop">
                 <div class="col-xs-12 text-center">
-                    <a class="btn btn-default register-button" href="http://mit.co1.qualtrics.com/jfe/form/SV_6rmPilYlw4kVkMZ" role="button">Apply now to BPC</a>
+                    <a class="btn btn-default register-button" href="https://mit.co1.qualtrics.com/jfe/form/SV_6rmPilYlw4kVkMZ" role="button">Apply now to BPC</a>
                 </div>
             </div>
     </div>
