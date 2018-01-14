@@ -17,11 +17,19 @@
                 </div>
                 <div class="col-md-1"></div>
                 <div class="col-md-9 marginTop">
-                    <p class="date">26 March, Monday</p>
+                    <p class="date">
+                        26 March, Monday
+                        <br>
+                        <span class="competition-location">Centara Grand & Bangkok Convention Center</span>
+                    </p>
                     <p class="competition-slogan">Are you a startup looking to meet with investors, potential mentors, or to promote your product? The Startup Showcase offers a unique opportunity to leverage our network to help your business!
                      <br>
                      <br>
+<<<<<<< HEAD
                      <span class="competition-rules">For additional detail on format and eligibility requirements, <a class="competition-rules-link"  href="Rules.pdf">please read the Startup Showcase Rules here</a> before applying.</span></p>
+=======
+                     <span class="competition-rules">For additional detail on format and eligibility requirements, <a href="Rules.pdf"><strong>please read the Startup Showcase Rules here</strong></a> before applying.</span></p>
+>>>>>>> d125cbc61c12aa6b50182faa47d733c248b2ee8e
                 </div>
             </div>
             <div class="row">

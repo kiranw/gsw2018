@@ -713,7 +713,16 @@ td:hover {
     font-weight: 300;
 }
 
+.competition-location {
+    font-size: 0.7em;
+    opacity: 0.9;
+}
+
 .competition-rules-link {
+    text-decoration: underline;
+}
+
+.competition-rules-link:hover {
     text-decoration: underline;
 }
 
@@ -780,6 +789,8 @@ td:hover {
 
 .speaker-expanded-text {
     font-size: 0.7em;
+    text-align: justify;
+    text-justify: inter-word;
 }
 
 .speaker-expanded-name {
@@ -887,6 +898,8 @@ td:hover {
 
 .team-expanded-text {
     font-size: 0.7em;
+    text-align: justify;
+    text-justify: inter-word;
 }
 
 .team-expanded-name {

@@ -17,7 +17,11 @@
                 </div>
                 <div class="col-md-1"></div>
                 <div class="col-md-9 marginTop">
-                    <p class="date">27 March, Tuesday</p>
+                    <p class="date">
+                        27 March, Tuesday
+                        <br>
+                        <span class="competition-location">Centara Grand & Bangkok Convention Center</span>
+                    </p>
                     <p class="competition-slogan">Have an amazing business idea? You have 60 seconds to convince the judges it's worth it, and you might land the <strong>$1,000 USD</strong> prize!</p>
                     <br />
                 </div>
