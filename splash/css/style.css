@@ -87,7 +87,7 @@ img.top-background {
 }
 @media only screen and (min-width: 480px) {
     .section {
-        padding: 70px 15%;
+        padding: 20px 15%;
         font-size: 1.4em;
     }
 }
@@ -568,6 +568,14 @@ td:hover {
     margin: 10px -8px;
 }
 
+/* Anchors */
+.anchor {
+  display: block;
+  height: 120px; /*same height as fixed .navbar */
+  margin-top: -120px; /*same height as fixed .navbar */
+  visibility: hidden;
+}
+
 .imgHeader{
     position: absolute;
     top: 0;
@@ -736,15 +744,6 @@ td:hover {
 }
 
 /* SPEAKER CSS */
-
-a.anchor {
-    display: block;
-    position: relative;
-    top: -250px;
-    visibility: hidden;
-}
-
-
 .speaker-picture {
     width: 90%;
     height: auto;
@@ -847,16 +846,29 @@ a.anchor {
 }
 
 .team-association, .team-role{
+    margin-bottom: 3px;
+    color: #0e1e58;
+    font-size: 0.8em;
+    text-align: center;
+    font-weight: 200;
+    text-transform: uppercase;
+    letter-spacing: -0.2px;
+}
+
+.team-area {
     margin-bottom: 20px;
     color: #0e1e58;
     font-size: 0.9em;
     text-align: center;
-    font-weight: 300;
+    font-weight: 400;
 }
 
 .team-row, .team-expanded-bio {
-    margin-bottom: 40px;
-    margin-top: 80px;
+    margin-bottom: 30px;
+}
+
+.team-row h2 {
+    margin-bottom: 15px;
 }
 
 .team {
