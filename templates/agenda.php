@@ -1,7 +1,3 @@
-<?php
-    $pageTitle = 'Schedule | MIT Global Startup Workshop 2018';
-?>
-
 <div class="parallax-window header" data-parallax="scroll" data-image-src="headers/img/schedule-header.png">
     <a name="agenda"></a>
     <h1 class="parallax-text">

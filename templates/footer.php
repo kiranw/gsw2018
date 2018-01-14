@@ -41,7 +41,7 @@
             <div class="col-md-offset-2 col-md-4">
                 <p class="footer-title">The Conference</p>
                 <a href="index.php">Home</a><br>
-                <a href="index.php#agenda">Agenda</a><br>
+                <a href="agenda.php">Agenda</a><br>
                 <a href="registration.php">Registration</a><br>
                 <a href="index.php#registration-section">Competitions</a><br>
                 <a href="speakers.php">Speakers</a><br>
