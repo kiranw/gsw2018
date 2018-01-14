@@ -47,14 +47,8 @@
             <div class="row text-center">
                 <div class="col-md-6 col-md-offset-3">
                     <hr class="blue-hr visible-xs-block" />
-                    <span class="competition-text">To apply for a spot in the EPC, please provide a 1-2 line overview of your idea during registration!</span>
-                </div>
-            </div>
-            <div class="row marginTop2">
-                <div class="col-xs-12">
-                    <div class="text-center">
-                        <a href="https://www.eventbrite.com/e/mit-global-startup-workshop-2018-tickets-41527576098?ref=ebtn" target="_blank" class="btn btn-default register-button" role="button">Register and apply to EPC</a>
-                    </div>
+                    <span class="competition-text">To apply for a spot in the EPC, please provide a 1-2 line overview of your idea <strong>during registration</strong>:</span>
+                    <p><a href="https://www.eventbrite.com/e/mit-global-startup-workshop-2018-tickets-41527576098?ref=ebtn" target="_blank">Register and apply to EPC</a></p>
                 </div>
             </div>
         </div>
