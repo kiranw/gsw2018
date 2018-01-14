@@ -39,11 +39,11 @@
                         Competitions <span class="caret"></span>
                     </a>
                     <div id="competitionMenu" class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item" href="epc.php">Elevator <br> Pitch Competition</a>
+                        <a class="dropdown-item" href="startup-showcase.php">Startup <br />Showcase</a>
                         <div class="dropdown-divider"></div>
-                        <a class="dropdown-item" href="bpc.php">Business Plan Competition</a>
+                        <a class="dropdown-item" href="epc.php">Elevator Pitch <br /> Competition</a>
                         <div class="dropdown-divider"></div>
-                        <a class="dropdown-item" href="startup-showcase.php">Startup Showcase</a>
+                        <a class="dropdown-item" href="bpc.php">Business Plan <br />Competition</a>
                     </div>
                 </li>
             </ul>
