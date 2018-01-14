@@ -18,12 +18,12 @@
                 <div class="col-md-1"></div>
                 <div class="col-md-9 marginTop">
                     <p class="date">27 March, Tuesday</p>
-                    <p class="competition-slogan">Have an amazing business idea? You have 60 seconds to convince the judges it's worth it, and you might land the <strong>$1,000</strong> prize!</p>
+                    <p class="competition-slogan">Have an amazing business idea? You have 60 seconds to convince the judges it's worth it, and you might land the <strong>$1,000 USD</strong> prize!</p>
                     <br />
                 </div>
             </div>
             <div class="row">
-                <div class="col-xs-6">
+                <div class="col-md-6">
                     <h2 class="competition-subtitle">Format</h2>
                     <p>What is it?</p>
                     <ul>
@@ -31,7 +31,7 @@
                         <li class="list-competition">Each participant pitches for <span style="font-weight: 800">up to 1 minute</span></li>
                     </ul>
                 </div>
-                <div class="col-xs-6">
+                <div class="col-md-6">
                     <h2 class="competition-subtitle">Eligibility</h2>
                     <p>Who should apply?</p>
                     <ul>
@@ -40,8 +40,13 @@
                     </ul>
                 </div>
             </div>
-            <div class="row marginTop2">
+
+            <div class="marginTop2 hidden-xs"></div>
+
+            <div class="row">
                 <div class="col-md-6 col-md-offset-3">
+                    <hr class="blue-hr visible-xs-block" />
+
                     <p>GSW Elevator Pitch Competition participants will receive training during the conference to hone and refine their pitch.</p>
                     <p>Watch the video to see some of the 2015 EPC pitches!</p>
                     <div class="embed-responsive embed-responsive-16by9">

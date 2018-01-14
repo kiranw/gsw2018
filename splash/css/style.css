@@ -1022,7 +1022,13 @@ footer {
     box-shadow: none;
     margin: 0;
 }
+
 /* General */
+.btn-default {
+    white-space:normal !important;
+    word-wrap: break-word;
+}
+
 .btn, #subscribe-button{
     border: none;
     /*padding: 12px 16px;*/
@@ -1116,4 +1122,9 @@ footer a:hover, footer-title a:focus {
 
 p {
     margin: 20px 0px;
+}
+
+.blue-hr {
+    border: 1px solid rgba(100, 121, 162,0.3);
+    width: 100%;
 }
