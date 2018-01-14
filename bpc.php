@@ -21,7 +21,7 @@
                         The MIT GSW Business Plan Competition is an opportunity for you to pitch your company and compete for a chance to win seed money to scale your startup.
                         <br>
                         <br>
-                        <span class="competition-rules">For additional detail on format and eligibility requirements, <a href="Rules.pdf">please read the BPC Rules here</a> before applying.</span>
+                        <span class="competition-rules">For additional detail on format and eligibility requirements, <a class="competition-rules-link" href="Rules.pdf">please read the BPC Rules here</a> before applying.</span>
                     </p>
                 </div>
             </div>
