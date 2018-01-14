@@ -22,7 +22,7 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-xs-6">
+                <div class="col-md-6">
                     <h2 class="competition-subtitle">Format</h2>
                     <p>The MIT GSW Startup Showcase offers the opportunity to:</p>
                     <ul>
@@ -47,9 +47,11 @@
                 <div class="col-md-6 col-md-offset-3">
                     <h2 class="competition-subtitle">Prizes</h2>
                     <ul>
-                        <li class="list-competition">A cash prize of <strong>up to $2,500</strong></li>
+                        <li class="list-competition">A cash prize of <strong>up to $2,500 USD</strong></li>
                     </ul>
                 </div>
+            </div>
+            <div class="row">
                 <div class="col-xs-12 marginTop">
                     <div class="text-center">
                         <a class="btn btn-default register-button" href="http://mit.co1.qualtrics.com/jfe/form/SV_6rmPilYlw4kVkMZ" role="button">Apply now to Startup Showcase</a>
