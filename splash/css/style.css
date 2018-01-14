@@ -87,7 +87,7 @@ img.top-background {
 }
 @media only screen and (min-width: 480px) {
     .section {
-        padding: 20px 15%;
+        padding: 40px 15%;
         font-size: 1.4em;
     }
 }
@@ -420,10 +420,11 @@ td:hover {
 }
 
 .partner-icon {
-    height: 150px;
+    height: 130px;
     display: inline-block;
     margin-right: 15px;
     float: right;
+    margin-top: 40px;
 }
 
 #partner-icons {

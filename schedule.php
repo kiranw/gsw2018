@@ -11,31 +11,32 @@
 
 <div class="section">
     <div class="row">
-        <div class="offset-md-1 col-md-6">
+        <div class="col-md-12">
             <table class="table table-striped">
               <thead>
                 <tr>
-                  <th scope="col">Workshops</th>
+                  <th scope="col">Panels</th>
                 </tr>
               </thead>
-              <tr><td>Success & Failure: Two Sides of the Same Coin</td></tr>
               <tr><td>Developing an Innovation Ecosystem</td></tr>
-              <tr><td>E-Commerce and ASEAN</td></tr>
+              <tr><td>E-Commerce</td></tr>
               <tr><td>AgriTech</td></tr>
-              <tr><td>EdTech</td></tr>
+              <tr><td>EducationTech</td></tr>
               <tr><td>HealthTech</td></tr>
               <tr><td>EnergyTech</td></tr>
               <tr><td>UrbanTech</td></tr>
               <tr><td>Machine Learning & AI</td></tr>
               <tr><td>The Power of Diversity</td></tr>
+              <tr><td>Success & Failure: Two Sides of the Same Coin</td></tr>
             </table>
-
         </div>
-        <div class="col-md-6">
+    </div>
+    <div class="row marginTop">
+        <div class="col-md-12">
             <table class="table table-striped">
                 <thead>
                     <tr>
-                        <th scope="col">Panels</th>
+                        <th scope="col">Workshops</th>
                     </tr>
                 </thead>
                 <tr><td>Ideation</tr></td>
@@ -51,5 +52,5 @@
             </table>
         </div>
     </div>
-    <p class="endSpeakers">Check back in soon for the final schedule!</p>
+    <p class="endSpeakers">Final schedule coming soon!</p>
 </div>

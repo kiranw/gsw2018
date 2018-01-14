@@ -38,7 +38,7 @@
                         Competitions <span class="caret"></span>
                     </a>
                     <div id="competitionMenu" class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item" href="epc.php">Elevator Pitch Competition</a>
+                        <a class="dropdown-item" href="epc.php">Elevator <br> Pitch Competition</a>
                         <div class="dropdown-divider"></div>
                         <a class="dropdown-item" href="bpc.php">Business Plan Competition</a>
                         <div class="dropdown-divider"></div>

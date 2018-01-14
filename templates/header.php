@@ -92,13 +92,13 @@
                 <div class="col-sm-4">
                     <a class="competition-type" href="epc.php">
                         <img src="splash/img/epc-thumbnail.png" class="competition-img link-img" />
-                        <span class="text-small">Elevator Pitch Competition</span>
+                        <span class="text-small">Elevator Pitch <br> Competition</span>
                     </a>
                 </div>
                 <div class="col-sm-4">
                     <a class="competition-type" href="bpc.php">
                         <img src="splash/img/bpc-thumbnail.png" class="competition-img link-img" />
-                        <span class="text-small">Business Plan Competition</span>
+                        <span class="text-small">Business Plan <br>Competition</span>
                     </a>
                 </div>
                 <div class="col-sm-4">
