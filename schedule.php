@@ -1,9 +1,9 @@
 <?php
     $pageTitle = 'Schedule | MIT Global Startup Workshop 2018';
-    include('templates/nav-bar.php');
 ?>
 
 <div class="parallax-window header" data-parallax="scroll" data-image-src="headers/img/schedule-header.png">
+    <a name="agenda"></a>
     <h1 class="parallax-text">
         Workshops and Panels
     </h1>
