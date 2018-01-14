@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>MIT Global Startup Workshop | Bangkok, Thailand, 2018</title>
+    <title><?= $pageTitle ?></title>
     <link rel="shortcut icon" href="http://gsw.mit.edu/2018/favicon.ico"/>
 
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
@@ -13,7 +13,7 @@
     <meta name="viewport" content="width=device-width,initial-scale=1">
 </head>
 <body>
-<nav class="navbar navbar-default navbar-fixed-top">
+<nav class="navbar navbar-default navbar-fixed-top" id="nav">
     <div class="container-fluid">
         <!-- Brand and toggle get grouped for better mobile display -->
         <div class="navbar-header">
@@ -27,12 +27,12 @@
         </div>
 
         <!-- Collect the nav links, forms, and other content for toggling -->
-        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <div class="collapse navbar-collapse navbar-mobile" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav">
-                <li class="active"><a href="index.php">Home<span class="sr-only">(current)</span></a></li>
-                <li><a href="index.php#registration-section">Registration</a></li>
+                <li><a href="index.php">Home<span class="sr-only">(current)</span></a></li>
+                <li><a href="registration.php">Registration</a></li>
                 <li><a href="speakers.php">Speakers</a></li>
-                <li><a href="#">Schedule</a></li>
+                <!--li><a href="schedule.php">Schedule</a></li-->
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                         Competitions <span class="caret"></span>
@@ -58,7 +58,7 @@
                         <div class="dropdown-divider"></div>
                         <a class="dropdown-item" href="team.php">Who we are</a>
                         <div class="dropdown-divider"></div>
-                        <a class="dropdown-item" href="partners.php">Partners</a>
+                        <a class="dropdown-item" href="collaborators.php">Collaborators</a>
                         <div class="dropdown-divider"></div>
                         <a class="dropdown-item" href="sponsors.php">Sponsors</a>
                     </div>
@@ -81,5 +81,20 @@ $scripts = "
                 $('.navbar').removeClass('navbar-condensed');
             }
         });
+
+        (function() {
+            var nav = document.getElementById('nav'),
+            anchor = nav.getElementsByTagName('a'),
+            current = window.location.href.split('/')[window.location.href.split('/').length-1];
+                        
+            for (var i = 0; i < anchor.length; i++) {
+                var url = anchor[i].href.split('/')[anchor[i].href.split('/').length-1];
+
+                if(url == current) {
+                    
+                        anchor[i].className = \"active\";
+                }
+            }
+        })();
     </script>";
 ?>

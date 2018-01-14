@@ -15,12 +15,15 @@
         <div class="col-md-9"></div>
     </div>
 </div>
+<div class="section">
+    <p class="endSpeakers">Come back soon, more speakers are added every day!</p>
+</div>
 
 <?php
 $scripts .= "
 <script src=\"splash/js/d3.js\"></script>
 <script>
-   d3.csv(\"data/speakers_new.csv\", function(error, speakers) {
+   d3.csv(\"data/speakers.csv\", function(error, speakers) {
       if (error) throw error;
 
     // columns for display on the site

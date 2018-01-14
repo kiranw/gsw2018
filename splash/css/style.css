@@ -5,6 +5,7 @@
 
 body {
     margin: 0;
+    padding: 0;
     font-family: 'Montserrat', sans-serif;
 }
 
@@ -14,6 +15,7 @@ a {
 
 a:hover, a:focus {
     text-decoration: none;
+    font-weight: 800 !important;
 }
 
 .banner {
@@ -48,6 +50,9 @@ a:hover, a:focus {
     color: #6dcafa;
     top: 0;
     bottom: 0;
+}
+img.top-background {
+    object-fit: cover;
 }
 
 .brand {
@@ -118,10 +123,11 @@ a:hover, a:focus {
     font-weight: 900;
 }
 .section-header-page{
-    border-bottom: 0.5px solid #0e1e58;
+    border-bottom: 2px solid rgba(100, 121, 162,0.3);
     padding-bottom: 5px;
     color: #0e1e58;
 }
+
 #newsletter_section {
     padding-top: 20px;
 }
@@ -130,7 +136,7 @@ a:hover, a:focus {
 }
 
 #countdown {
-    margin-top: -5px;
+    margin-top: -15px;
     background-color: #efefef;
 }
 
@@ -195,6 +201,35 @@ a:hover, a:focus {
     font-size: 3em;
     color: #d43f3a;
     font-weight: 700;
+}
+
+th {
+    font-size: 1.8em;
+    color: #d43f3a;
+    font-weight: 700;
+}
+
+td {
+    color: #0e1e58;
+    text-transform: uppercase;
+    font-size: 0.65em;
+    letter-spacing: 2px;
+    font-weight: 700;
+    padding: 15px 5px 15px 20px !important;
+    -webkit-transition: color 0.25s ease-out;
+    -moz-transition: color 0.25s ease-out;
+    -o-transition: color 0.25s ease-out;
+    transition: color 0.25s ease-out;
+    -webkit-transition: background-color 0.5s ease-out;
+    -moz-transition: background-color 0.5s ease-out;
+    -o-transition: background-color 0.5s ease-out;
+    transition: background-color 0.5s ease-out;
+
+}
+
+td:hover {
+    background-color: rgba(212,63,58,0.7);
+    color: white;
 }
 
 .number-label {
@@ -378,7 +413,6 @@ a:hover, a:focus {
     /*color: #0A1C3F !important;*/
     color: white;
     opacity: 0.8;
-    margin: 30px 0px;
 }
 
 .fa:hover {
@@ -399,7 +433,7 @@ a:hover, a:focus {
 @media only screen and (min-width: 768px) {
     #partner-icons {
         display: block;
-        top: 5%;
+        top: 12%;
         right: 5%;
         position: absolute;
     }
@@ -441,20 +475,41 @@ a:hover, a:focus {
     height: 90px;
 }
 
+.navbar-brand {
+    padding: 0 15px;
+}
+
 #navbar-logo {
-    height: 60px;
+    height: 50px;
     transition:height 0.3s ease-out;
-    margin-top: -20px;
 }
 @media only screen and (min-width: 768px) {
     #navbar-logo {
-        height: 80px;
+        height: 50px;
     }
 }
 
-.navbar-logo-small {
-    height: 60px !important;
+@media (max-width: 768px){
+    .navbar-mobile{
+        background-clip: padding-box;
+        border-radius: 4px;
+        box-shadow: rgba(0, 0, 0, 0.17) 0px 6px 12px;
+        background-color: #213356;
+        margin-top: 20px;
+    }
 }
+
+@media only screen and (min-width: 480px) {
+    .navbar-logo-small {
+        height: 55px !important;
+    }
+}
+
+.active {
+    font-weight: 600;
+    color: white !important;
+}
+
 
 .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus {
     color: #fff;
@@ -462,17 +517,32 @@ a:hover, a:focus {
     background-color: transparent;
 }
 
+
 .navbar-default .navbar-nav>.active> a:hover, .navbar-default .navbar-nav>li>a:hover {
     color: rgba(255,255,255,0.8);
     font-weight: 600;
     background-color: transparent;
 }
 
+
 .navbar-default .navbar-nav>li>a {
     color: rgba(255,255,255,0.5);
     letter-spacing: 0.08em;
     font-size: 0.9em;
 }
+
+@media (max-width: 960px) and (min-width: 870px) {
+    .navbar-default .navbar-nav>li>a {
+        font-size: 0.75em;
+    }
+}
+
+@media (max-width: 870px) {
+    .navbar-default .navbar-nav>li>a {
+        font-size: 0.7em;
+    }
+}
+
 
 .dropdown-menu{
     padding: 15px;
@@ -487,6 +557,12 @@ a:hover, a:focus {
     font-weight: 600;
 }
 
+@media (max-width: 767px) {
+    .navbar-nav .open .dropdown-menu {
+        font-size: 0.7em;
+    }
+}
+
 .dropdown-divider {
     border: 1px solid #2f3f5f;
     margin: 10px -8px;
@@ -497,6 +573,10 @@ a:hover, a:focus {
     top: 0;
     left: 0;
     z-index: -1;
+}
+
+.main-page-header {
+    background: #efefef;
 }
 
 .main-page-header-text{
@@ -517,24 +597,142 @@ a:hover, a:focus {
     max-height: initial;
 }
 
+.quote {
+    position: absolute;
+    color: white;
+    padding-top: 30%;
+}
+
+.img-quote {
+    font-size: 1.3em;
+    color: white;
+    font-weight: 500;
+}
+
+.quote-name {
+    color: #ccdde6;
+    font-size: 1.1em;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+    font-weight: 300;
+}
+
+.quote-position{
+    color: #ccdde6;
+    font-size: 0.85em;
+    margin-top: 0px;
+    font-weight: 500;
+}
+
+@media only screen and (max-width: 1034px) {
+    .img-quote {
+        font-size: 1em;
+        font-weight: 500;
+    }
+
+    .quote-name {
+        font-size: 1em;
+    }
+}
+
 .competition-img {
     width: 200px;
     height: 200px;
     margin: 20px 0px;
 }
 
-.competitions-highlights p.text-small {
-    margin-top: 10px;
-    font-size: .5em;
-    font-weight: 500;
-    text-transform: uppercase;
-    letter-spacing: 2px;
+.competitions-highlights .img-square{
+    width: 200px;
+    height: 200px;
+}
+
+
+.competitions-highlights span {
+    width: 100%;
+    float: left;
     padding: 0px 20px;
 }
+
+.link-img {
+    opacity: 0.6;
+}
+
+.link-img:focus, .link-img:hover {
+    opacity: 1;
+}
+
+/*.competitions-highlights a:hover,.competitions-highlights a:focus  {*/
+    /*font-weight: 800;*/
+/*}*/
+
+/*.competition-type:hover, .competition-type:focus{*/
+    /*font-weight: 800;*/
+/*}*/
+
+
 @media only screen and (min-width: 480px) {
     .competitions-highlights p.text-small {
         font-size: 0.8em;
     }
+}
+
+.marginTop{
+    margin-top: 30px;
+}
+.marginTop2 {
+    margin-top: 60px;
+}
+
+.list-competition {
+    margin-bottom: 5px;
+}
+
+.competition-slogan {
+    color: #dd4f33;
+    font-weight: 500;
+    font-size: 1em;
+}
+
+.competition-rules {
+    font-size: 0.8em;
+    color: rgba(80, 101, 142, 1);
+    font-style: italic;
+    font-weight: 300;
+}
+
+.header-row {
+    background-color: #efefef;
+    margin-bottom: 5vh;
+    padding-bottom: 20px;
+}
+
+.competition-text{
+    font-size: 0.8em;
+}
+
+.date {
+    color: #0e1e58;
+    text-transform: uppercase;
+    font-size: 1em;
+    letter-spacing: 2px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+.competition-subtitle{
+    border-bottom: 2px solid rgba(100, 121, 162,0.3);
+    padding-bottom: 5px;
+    color: #0e1e58;
+    font-weight: 700;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    font-size: 1em;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.watchText{
+    text-align: center;
 }
 
 /* SPEAKER CSS */
@@ -596,16 +794,41 @@ a.anchor {
     color: #0e1e58;
 }
 
-/* History CSS */
-#past_websites p {
-    font-weight: 500;
-    margin-bottom: 5px;
-    font-size: 0.7em;
-    color: #515152;
-    text-transform: uppercase;
-    padding: 5px 0;
+.endSpeakers {
+    text-align: center;
+    font-size: 1.2em;
+    font-weight: 800;
+    color: #dd4f33;
 }
 
+/* History CSS */
+
+.history-place {
+    font-size: 0.7em;
+    margin-top: 5px;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: black !important;
+    opacity: 0.7;
+}
+.history-year {
+    font-weight: 500;
+    font-size: 0.7em;
+    text-transform: uppercase;
+    color: #515152;
+    display: block;
+    margin-bottom: 20px;
+    opacity: 0.7;
+}
+
+.history-item {
+    opacity: 0.9 !important;
+}
+
+.history-item:hover {
+    opacity: 1 !important;
+    font-weight: 800 !important;
+}
 /* TEAM CSS */
 .team-picture {
     object-fit: cover;
@@ -805,7 +1028,7 @@ footer {
 .subscribe .form-control {
     color: rgba(255, 255, 255, 0.8);
     background-color: rgba(255,255,255,0.15);
-    border: 2px solid color: rgba(255, 255, 255, 0.6);
+    border: 2px solid rgba(255, 255, 255, 0.6);
     border-radius: 5px;
     -webkit-box-shadow: none;
     box-shadow: none;
@@ -815,16 +1038,22 @@ footer {
 .subscribe .form-control:hover {
     color: rgba(255, 255, 255, 1);
     background-color: rgba(255,255,255,0.1);
-    border: 2px solid color: rgba(255, 255, 255, 0.6);
+    border: 2px solid rgba(255, 255, 255, 0.6);
     border-radius: 5px;
     -webkit-box-shadow: none;
     box-shadow: none;
     margin: 0;
 }
+
 /* General */
+.btn-default {
+    white-space:normal !important;
+    word-wrap: break-word;
+}
+
 .btn, #subscribe-button{
     border: none;
-    padding: 5px 10px;
+    /*padding: 12px 16px;*/
     font-weight: 500;
     text-transform: uppercase;
     margin-bottom: 20px;
@@ -841,6 +1070,10 @@ footer {
     color: white;
     background-color: #dd4f33;
     border: none;
+}
+
+.register-button {
+    padding: 12px 16px;
 }
 
 
@@ -911,4 +1144,9 @@ footer a:hover, footer-title a:focus {
 
 p {
     margin: 20px 0px;
+}
+
+.blue-hr {
+    border: 1px solid rgba(100, 121, 162,0.3);
+    width: 100%;
 }

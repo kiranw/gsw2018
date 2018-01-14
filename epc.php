@@ -8,39 +8,54 @@
         Elevator Pitch Competition
     </h1>
 </div>
-<div class="section">
+<div class="section competition-section">
     <div class="row">
         <div class="col-xs-12">
-            <h2>What is it?</h2>
-            <ul>
-                <li>Up to 30 entrepreneurs pitch their idea to a panel of judges in a fast-paced, rapid fire competition </li>
-                <li>Each participant pitches for up to 1 minute</li>
-            </ul>
-            <br />
-
-            <h2>Who should apply?</h2>
-            <ul>
-                <li>Any entrepreneur with an idea or problem they want to solve</li>
-                <li>You do not need to have a startup, just an idea!</li>
-            </ul>
-            <br />
-
+            <div class="row header-row">
+                <div class="col-md-2 competitions-highlights">
+                    <img src="splash/img/epc-thumbnail.png" class="competition-img" />
+                </div>
+                <div class="col-md-1"></div>
+                <div class="col-md-9 marginTop">
+                    <p class="date">27 March, Tuesday</p>
+                    <p class="competition-slogan">Have an amazing business idea? You have 60 seconds to convince the judges it's worth it, and you might land the <strong>$1,000 USD</strong> prize!</p>
+                    <br />
+                </div>
+            </div>
             <div class="row">
                 <div class="col-md-6">
-                    <div class="embed-responsive embed-responsive-16by9">
-                        <iframe class="embed-responsive-item" src="https://www.youtube-nocookie.com/embed/5fX2haZ0_wE?rel=0" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
-                    </div>
+                    <h2 class="competition-subtitle">Format</h2>
+                    <p class="competition-text">What is it?</p>
+                    <ul class="competition-text">
+                        <li class="list-competition">Up to <span style="font-weight: 800">30 entrepreneurs</span> pitch their idea to a panel of judges in a <span style="font-weight: 800">fast-paced, rapid fire competition</span></li>
+                        <li class="list-competition">Each participant pitches for <span style="font-weight: 800">up to 1 minute</span></li>
+                        <li class="list-competition">Participants will also receive training during the conference to improve their pitch. See some of the 2015 EPC pitches <a href="https://youtu.be/5fX2haZ0_wE">here</a>.</li>
+                    </ul>
                 </div>
                 <div class="col-md-6">
-                    <p>GSW Elevator Pitch Competition participants will receive training during the conference to hone and refine their pitch.</p>
-                    <p>They will have 60 seconds to pitch their idea to a panel of judges and the entire GSW audience.</p>
-                    <p>Watch the video to see some of the 2015 EPC pitches!</p>
+                    <h2 class="competition-subtitle">Eligibility</h2>
+                    <p class="competition-text">Who should apply?</p>
+                    <ul class="competition-text">
+                        <li class="list-competition">Any entrepreneur with an idea or problem they want to solve</li>
+                        <li class="list-competition">You do not need to have a startup, just an idea!</li>
+                    </ul>
                 </div>
             </div>
 
-            <br />
-            <div class="text-center">
-                <a class="btn btn-default" href="#" role="button">Apply now to EPC</a>
+            <div class="marginTop2 hidden-xs"></div>
+
+            <div class="row text-center">
+                <div class="col-md-6 col-md-offset-3">
+                    <hr class="blue-hr visible-xs-block" />
+                    <span class="competition-text">To apply for a spot in the EPC, please provide a 1-2 line overview of your idea during registration!</span>
+                </div>
+            </div>
+            <div class="row marginTop2">
+                <div class="col-xs-12">
+                    <div class="text-center">
+                        <a href="https://www.eventbrite.com/e/mit-global-startup-workshop-2018-tickets-41527576098?ref=ebtn" target="_blank" class="btn btn-default register-button" role="button">Register and apply to EPC</a>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
