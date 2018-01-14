@@ -56,8 +56,6 @@
                         <div class="dropdown-divider"></div>
                         <a class="dropdown-item" href="team.php">Who we are</a>
                         <div class="dropdown-divider"></div>
-                        <a class="dropdown-item" href="collaborators.php">Collaborators</a>
-                        <div class="dropdown-divider"></div>
                         <a class="dropdown-item" href="sponsors.php">Sponsors</a>
                     </div>
                 </li>
