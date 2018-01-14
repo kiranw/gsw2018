@@ -87,7 +87,7 @@ img.top-background {
 }
 @media only screen and (min-width: 480px) {
     .section {
-        padding: 70px 15%;
+        padding: 20px 15%;
         font-size: 1.4em;
     }
 }
@@ -201,6 +201,35 @@ img.top-background {
     font-size: 3em;
     color: #d43f3a;
     font-weight: 700;
+}
+
+th {
+    font-size: 1.8em;
+    color: #d43f3a;
+    font-weight: 700;
+}
+
+td {
+    color: #0e1e58;
+    text-transform: uppercase;
+    font-size: 0.65em;
+    letter-spacing: 2px;
+    font-weight: 700;
+    padding: 15px 5px 15px 20px !important;
+    -webkit-transition: color 0.25s ease-out;
+    -moz-transition: color 0.25s ease-out;
+    -o-transition: color 0.25s ease-out;
+    transition: color 0.25s ease-out;
+    -webkit-transition: background-color 0.5s ease-out;
+    -moz-transition: background-color 0.5s ease-out;
+    -o-transition: background-color 0.5s ease-out;
+    transition: background-color 0.5s ease-out;
+
+}
+
+td:hover {
+    background-color: rgba(212,63,58,0.7);
+    color: white;
 }
 
 .number-label {
@@ -539,6 +568,14 @@ img.top-background {
     margin: 10px -8px;
 }
 
+/* Anchors */
+.anchor {
+  display: block;
+  height: 120px; /*same height as fixed .navbar */
+  margin-top: -120px; /*same height as fixed .navbar */
+  visibility: hidden;
+}
+
 .imgHeader{
     position: absolute;
     top: 0;
@@ -660,14 +697,34 @@ img.top-background {
 
 .competition-slogan {
     color: #dd4f33;
-    font-weight: 300;
+    font-weight: 500;
     font-size: 1em;
 }
 
+.competition-rules {
+    font-size: 0.8em;
+    color: rgba(80, 101, 142, 1);
+    font-style: italic;
+    font-weight: 300;
+}
+
+.header-row {
+    background-color: #efefef;
+    margin-bottom: 5vh;
+    padding-bottom: 20px;
+}
+
+.competition-text{
+    font-size: 0.8em;
+}
+
 .date {
-    margin-bottom: 20px;
     color: #0e1e58;
-    font-size: 0.7em;
+    text-transform: uppercase;
+    font-size: 1em;
+    letter-spacing: 2px;
+    font-weight: 700;
+    margin-bottom: 30px;
 }
 
 .competition-subtitle{
@@ -677,7 +734,9 @@ img.top-background {
     font-weight: 700;
     margin-top: 30px;
     margin-bottom: 20px;
-    font-size: 1.5em;
+    font-size: 1em;
+    text-transform: uppercase;
+    letter-spacing: 2px;
 }
 
 .watchText{
@@ -685,15 +744,6 @@ img.top-background {
 }
 
 /* SPEAKER CSS */
-
-a.anchor {
-    display: block;
-    position: relative;
-    top: -250px;
-    visibility: hidden;
-}
-
-
 .speaker-picture {
     width: 90%;
     height: auto;
@@ -796,16 +846,29 @@ a.anchor {
 }
 
 .team-association, .team-role{
+    margin-bottom: 3px;
+    color: #0e1e58;
+    font-size: 0.8em;
+    text-align: center;
+    font-weight: 200;
+    text-transform: uppercase;
+    letter-spacing: -0.2px;
+}
+
+.team-area {
     margin-bottom: 20px;
     color: #0e1e58;
     font-size: 0.9em;
     text-align: center;
-    font-weight: 300;
+    font-weight: 400;
 }
 
 .team-row, .team-expanded-bio {
-    margin-bottom: 40px;
-    margin-top: 80px;
+    margin-bottom: 30px;
+}
+
+.team-row h2 {
+    margin-bottom: 15px;
 }
 
 .team {
@@ -993,7 +1056,13 @@ footer {
     box-shadow: none;
     margin: 0;
 }
+
 /* General */
+.btn-default {
+    white-space:normal !important;
+    word-wrap: break-word;
+}
+
 .btn, #subscribe-button{
     border: none;
     /*padding: 12px 16px;*/
@@ -1087,4 +1156,9 @@ footer a:hover, footer-title a:focus {
 
 p {
     margin: 20px 0px;
+}
+
+.blue-hr {
+    border: 1px solid rgba(100, 121, 162,0.3);
+    width: 100%;
 }

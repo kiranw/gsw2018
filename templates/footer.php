@@ -41,14 +41,15 @@
             <div class="col-md-offset-2 col-md-4">
                 <p class="footer-title">The Conference</p>
                 <a href="index.php">Home</a><br>
-                <a href="index.php">Registration</a><br>
-                <a href="index.php">Agenda</a><br>
+                <a href="registration.php">Registration</a><br>
+                <a href="index.php#registration-section">Competitions</a><br>
                 <a href="speakers.php">Speakers</a><br>
             </div>
             <div class="col-md-4">
                 <p class="footer-title">Organization</p>
-                <a href="advisory.php">Advisory board</a><br>
-                <a href="team.php">Team</a><br>
+                <a href="history.php">History</a><br>
+                <a href="team.php">Who we are</a><br>
+                <a href="sponsors.php">Sponsors</a><br>
                 <a href="index.php#location">Venue</a><br>
             </div>
         </div>

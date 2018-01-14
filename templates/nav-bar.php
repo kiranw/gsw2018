@@ -7,7 +7,7 @@
 
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,400i,500,500i,600,700,800,900" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:200,400,400i,500,500i,600,700,800,900" rel="stylesheet">
     <link rel="stylesheet" href="splash/css/style.css">
     <link href="https://use.fontawesome.com/0b972b6cf8.css" media="all" rel="stylesheet">
     <meta name="viewport" content="width=device-width,initial-scale=1">
@@ -43,8 +43,6 @@
                         <a class="dropdown-item" href="bpc.php">Business Plan Competition</a>
                         <div class="dropdown-divider"></div>
                         <a class="dropdown-item" href="startup-showcase.php">Startup Showcase</a>
-                        <div class="dropdown-divider"></div>
-                        <a class="dropdown-item" href="mentors.php">Our mentors</a>
                     </div>
                 </li>
             </ul>
@@ -57,8 +55,6 @@
                         <a class="dropdown-item" href="history.php">History</a>
                         <div class="dropdown-divider"></div>
                         <a class="dropdown-item" href="team.php">Who we are</a>
-                        <div class="dropdown-divider"></div>
-                        <a class="dropdown-item" href="collaborators.php">Collaborators</a>
                         <div class="dropdown-divider"></div>
                         <a class="dropdown-item" href="sponsors.php">Sponsors</a>
                     </div>
