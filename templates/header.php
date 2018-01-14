@@ -12,8 +12,8 @@
     </div>
     <div class="banner">
         <div id="partner-icons">
-            <img src="splash/img/logos/mitthailand.png" class="partner-icon">
-            <img src="splash/img/logos/sasinsplash.png" class="partner-icon">
+            <img src="splash/img/logos/mitthailand_white.png" class="partner-icon">
+            <img src="splash/img/logos/sasin_white.png" class="partner-icon">
         </div>
     </div>
 
