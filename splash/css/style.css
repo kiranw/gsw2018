@@ -776,6 +776,8 @@ td:hover {
 
 .speaker-expanded-text {
     font-size: 0.7em;
+    text-align: justify;
+    text-justify: inter-word;
 }
 
 .speaker-expanded-name {
@@ -883,6 +885,8 @@ td:hover {
 
 .team-expanded-text {
     font-size: 0.7em;
+    text-align: justify;
+    text-justify: inter-word;
 }
 
 .team-expanded-name {

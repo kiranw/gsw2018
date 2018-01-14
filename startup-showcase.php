@@ -21,7 +21,7 @@
                     <p class="competition-slogan">Are you a startup looking to meet with investors, potential mentors, or to promote your product? The Startup Showcase offers a unique opportunity to leverage our network to help your business!
                      <br>
                      <br>
-                     <span class="competition-rules">For additional detail on format and eligibility requirements, <a href="Rules.pdf">please read the Startup Showcase Rules here</a> before applying.</span></p>
+                     <span class="competition-rules">For additional detail on format and eligibility requirements, <a href="Rules.pdf"><strong>please read the Startup Showcase Rules here</strong></a> before applying.</span></p>
                 </div>
             </div>
             <div class="row">
