@@ -524,6 +524,10 @@ td:hover {
     background-color: transparent;
 }
 
+.navbar-default a:hover, .navbar-default a:focus {
+    font-size: 0.95em;
+}
+
 
 .navbar-default .navbar-nav>li>a {
     color: rgba(255,255,255,0.5);
