@@ -4,7 +4,7 @@
             <div class="col-xs-12 text-center subscribe">
                 <p class="section-header section-header-footer">Stay in touch! Subscribe to our newsletter.</p>
                 <p>Don't miss any news about MIT GSW 2018. We promise we won't spam you.</p>
-                <form method="post" class="form-inline" action="http://gsw.mit.edu/wordpress/?na=s" onsubmit="return newsletter_check(this)">
+                <form method="post" class="form-inline" action="http://gsw.mit.edu/wordpress/?na=s">
                     <div class="form-group">
                         <input class="form-control" type="email" name="ne" placeholder="Email" required>
                         <input class="form-control" id="subscribe-button" type="submit" value="Subscribe">
@@ -41,6 +41,7 @@
             <div class="col-md-offset-2 col-md-4">
                 <p class="footer-title">The Conference</p>
                 <a href="index.php">Home</a><br>
+                <a href="index.php#agenda">Agenda</a><br>
                 <a href="registration.php">Registration</a><br>
                 <a href="index.php#registration-section">Competitions</a><br>
                 <a href="speakers.php">Speakers</a><br>

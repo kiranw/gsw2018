@@ -30,6 +30,7 @@
         <div class="collapse navbar-collapse navbar-mobile" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav">
                 <li><a href="index.php">Home<span class="sr-only">(current)</span></a></li>
+                <li><a href="index.php#agenda">Agenda</a></li>
                 <li><a href="registration.php">Registration</a></li>
                 <li><a href="speakers.php">Speakers</a></li>
                 <!--li><a href="schedule.php">Schedule</a></li-->
@@ -38,11 +39,11 @@
                         Competitions <span class="caret"></span>
                     </a>
                     <div id="competitionMenu" class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item" href="epc.php">Elevator <br> Pitch Competition</a>
+                        <a class="dropdown-item" href="startup-showcase.php">Startup <br />Showcase</a>
                         <div class="dropdown-divider"></div>
-                        <a class="dropdown-item" href="bpc.php">Business Plan Competition</a>
+                        <a class="dropdown-item" href="epc.php">Elevator Pitch <br /> Competition</a>
                         <div class="dropdown-divider"></div>
-                        <a class="dropdown-item" href="startup-showcase.php">Startup Showcase</a>
+                        <a class="dropdown-item" href="bpc.php">Business Plan <br />Competition</a>
                     </div>
                 </li>
             </ul>
