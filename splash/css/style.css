@@ -673,9 +673,9 @@ td:hover {
     /*font-weight: 800;*/
 /*}*/
 
-/*.competition-type:hover, .competition-type:focus{*/
-    /*font-weight: 800;*/
-/*}*/
+.competition-type:hover, .competition-type:focus{
+    font-size: 0.95em;
+}
 
 
 @media only screen and (min-width: 480px) {
