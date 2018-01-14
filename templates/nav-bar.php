@@ -30,6 +30,7 @@
         <div class="collapse navbar-collapse navbar-mobile" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav">
                 <li><a href="index.php">Home<span class="sr-only">(current)</span></a></li>
+                <li><a href="index.php#agenda">Agenda</a></li>
                 <li><a href="registration.php">Registration</a></li>
                 <li><a href="speakers.php">Speakers</a></li>
                 <!--li><a href="schedule.php">Schedule</a></li-->
