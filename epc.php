@@ -8,10 +8,10 @@
         Elevator Pitch Competition
     </h1>
 </div>
-<div class="section">
+<div class="section competition-section">
     <div class="row">
         <div class="col-xs-12">
-            <div class="row">
+            <div class="row header-row">
                 <div class="col-md-2 competitions-highlights">
                     <img src="splash/img/epc-thumbnail.png" class="competition-img" />
                 </div>
@@ -25,16 +25,17 @@
             <div class="row">
                 <div class="col-md-6">
                     <h2 class="competition-subtitle">Format</h2>
-                    <p>What is it?</p>
-                    <ul>
+                    <p class="competition-text">What is it?</p>
+                    <ul class="competition-text">
                         <li class="list-competition">Up to <span style="font-weight: 800">30 entrepreneurs</span> pitch their idea to a panel of judges in a <span style="font-weight: 800">fast-paced, rapid fire competition</span></li>
                         <li class="list-competition">Each participant pitches for <span style="font-weight: 800">up to 1 minute</span></li>
+                        <li class="list-competition">Participants will also receive training during the conference to improve their pitch. See some of the 2015 EPC pitches <a href="https://youtu.be/5fX2haZ0_wE">here</a>.</li>
                     </ul>
                 </div>
                 <div class="col-md-6">
                     <h2 class="competition-subtitle">Eligibility</h2>
-                    <p>Who should apply?</p>
-                    <ul>
+                    <p class="competition-text">Who should apply?</p>
+                    <ul class="competition-text">
                         <li class="list-competition">Any entrepreneur with an idea or problem they want to solve</li>
                         <li class="list-competition">You do not need to have a startup, just an idea!</li>
                     </ul>
@@ -43,15 +44,10 @@
 
             <div class="marginTop2 hidden-xs"></div>
 
-            <div class="row">
+            <div class="row text-center">
                 <div class="col-md-6 col-md-offset-3">
                     <hr class="blue-hr visible-xs-block" />
-
-                    <p>GSW Elevator Pitch Competition participants will receive training during the conference to hone and refine their pitch.</p>
-                    <p>Watch the video to see some of the 2015 EPC pitches!</p>
-                    <div class="embed-responsive embed-responsive-16by9">
-                        <iframe class="embed-responsive-item" src="https://www.youtube-nocookie.com/embed/5fX2haZ0_wE?rel=0" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
-                    </div>
+                    <span class="competition-text">To apply for a spot in the EPC, please provide a 1-2 line overview of your idea during registration!</span>
                 </div>
             </div>
             <div class="row marginTop2">

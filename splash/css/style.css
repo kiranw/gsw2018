@@ -689,14 +689,34 @@ td:hover {
 
 .competition-slogan {
     color: #dd4f33;
-    font-weight: 300;
+    font-weight: 500;
     font-size: 1em;
 }
 
+.competition-rules {
+    font-size: 0.8em;
+    color: rgba(80, 101, 142, 1);
+    font-style: italic;
+    font-weight: 300;
+}
+
+.header-row {
+    background-color: #efefef;
+    margin-bottom: 5vh;
+    padding-bottom: 20px;
+}
+
+.competition-text{
+    font-size: 0.8em;
+}
+
 .date {
-    margin-bottom: 20px;
     color: #0e1e58;
-    font-size: 0.7em;
+    text-transform: uppercase;
+    font-size: 1em;
+    letter-spacing: 2px;
+    font-weight: 700;
+    margin-bottom: 30px;
 }
 
 .competition-subtitle{
@@ -706,7 +726,9 @@ td:hover {
     font-weight: 700;
     margin-top: 30px;
     margin-bottom: 20px;
-    font-size: 1.5em;
+    font-size: 1em;
+    text-transform: uppercase;
+    letter-spacing: 2px;
 }
 
 .watchText{
