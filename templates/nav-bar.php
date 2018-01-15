@@ -1,3 +1,9 @@
+<?php
+    // Increase this version every time you change the style.css file
+    // See more in https://css-tricks.com/strategies-for-cache-busting-css/#article-header-id-1
+    $cssVersion = "1.0.1";
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -8,7 +14,7 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 
     <link href="https://fonts.googleapis.com/css?family=Montserrat:200,400,400i,500,500i,600,700,800,900" rel="stylesheet">
-    <link rel="stylesheet" href="splash/css/style.css">
+    <link rel="stylesheet" href="splash/css/style.css?v=<?= $cssVersion ?>">
     <link href="https://use.fontawesome.com/0b972b6cf8.css" media="all" rel="stylesheet">
     <meta name="viewport" content="width=device-width,initial-scale=1">
 </head>
