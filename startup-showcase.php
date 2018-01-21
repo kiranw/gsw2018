@@ -17,11 +17,15 @@
                 </div>
                 <div class="col-md-1"></div>
                 <div class="col-md-9 marginTop">
-                    <p class="date">26 March, Monday</p>
+                    <p class="date">
+                        26 March, Monday
+                        <br>
+                        <span class="competition-location">Centara Grand & Bangkok Convention Center</span>
+                    </p>
                     <p class="competition-slogan">Are you a startup looking to meet with investors, potential mentors, or to promote your product? The Startup Showcase offers a unique opportunity to leverage our network to help your business!
                      <br>
                      <br>
-                     <span class="competition-rules">For additional detail on format and eligibility requirements, please read the BPC Rules <a href="Rules.pdf">here</a> before applying.</span></p>
+                     <span class="competition-rules">For additional detail on format and eligibility requirements, <a class="competition-rules-link" href="Rules.pdf"><strong>please read the Startup Showcase Rules here</strong></a> before applying.</span></p>
                 </div>
             </div>
             <div class="row">
@@ -49,14 +53,15 @@
                 <div class="col-md-6">
                     <h2 class="competition-subtitle">Prizes</h2>
                     <ul class="competition-text">
-                        <li class="list-competition">A cash prize of <strong>up to $2,500 USD</strong></li>
+                        <li class="list-competition">A cash prize of <strong>$2,000 USD</strong></li>
                     </ul>
                 </div>
             </div>
             <div class="row">
                 <div class="col-xs-12 marginTop">
                     <div class="text-center">
-                        <a class="btn btn-default register-button" href="http://mit.co1.qualtrics.com/jfe/form/SV_6rmPilYlw4kVkMZ" role="button">Apply now to Startup Showcase</a>
+                        <a class="btn btn-default register-button" href="https://mit.co1.qualtrics.com/jfe/form/SV_aWNB2Ml5X56vENv" role="button">Apply now to Startup Showcase</a><br>
+                        <span class="competition-text">Applications due by 11:59 PM ICT on March 2nd, 2018</span>
                     </div>
                 </div>
             </div>

@@ -27,6 +27,7 @@
           <img src="splash/img/gsw-history-map-2018-high.png" class="img-responsive full-width" alt="Map of countries" />
         </a>
       </p>
+      <p class="text-center">(Click on the map to expand it.)</p>
       <br />
 
       <div class="section-header">GSW 2017 Conference Highlights</div>

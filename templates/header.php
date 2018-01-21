@@ -12,8 +12,8 @@
     </div>
     <div class="banner">
         <div id="partner-icons">
-            <img src="splash/img/logos/mitthailand.png" class="partner-icon">
-            <img src="splash/img/logos/sasinsplash.png" class="partner-icon">
+            <img src="splash/img/logos/mitthailand_white.png" class="partner-icon">
+            <img src="splash/img/logos/sasin_white.png" class="partner-icon">
         </div>
     </div>
 
@@ -90,21 +90,21 @@
             <br />
             <div class="row competitions-highlights text-center">
                 <div class="col-sm-4">
+                    <a class="competition-type" href="startup-showcase.php">
+                        <img src="splash/img/showcase-thumbnail.png" class="competition-img link-img" />
+                        <span class="text-small">Startup Showcase</span>
+                    </a>
+                </div>
+                <div class="col-sm-4">
                     <a class="competition-type" href="epc.php">
                         <img src="splash/img/epc-thumbnail.png" class="competition-img link-img" />
-                        <span class="text-small">Elevator Pitch Competition</span>
+                        <span class="text-small">Elevator Pitch <br> Competition</span>
                     </a>
                 </div>
                 <div class="col-sm-4">
                     <a class="competition-type" href="bpc.php">
                         <img src="splash/img/bpc-thumbnail.png" class="competition-img link-img" />
-                        <span class="text-small">Business Plan Competition</span>
-                    </a>
-                </div>
-                <div class="col-sm-4">
-                    <a class="competition-type" href="startup-showcase.php">
-                        <img src="splash/img/showcase-thumbnail.png" class="competition-img link-img" />
-                        <span class="text-small">Startup Showcase</span>
+                        <span class="text-small">Business Plan <br>Competition</span>
                     </a>
                 </div>
             </div>

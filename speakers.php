@@ -35,21 +35,24 @@ $scripts .= "
             var index = i*totalColumns + j;
             if (index < speakers.length){
                 var speaker = speakers[i*totalColumns + j];
+
                 var name = speaker['First Name'] + ' ' + speaker['Last Name'];
+                var anchor = name.replace(/ /g,\"\");
+
                 var path = speaker['Filename'];
                 var bio = speaker['Bio'];
                 var title = speaker['Title'];
                 var associationMarkup = speaker['MIT association'] == 'Y' ?
                     '<img class=\'speaker-picture-association\' src=\'speaker/img/mit.png\'/>' : '';
 
-                imageMarkup = '<div class=\'speaker col-sm-6 col-md-3\'>' +
-                    '<a class=\'anchor\' name=\'speaker'+ speaker[3] +'\'></a>' +
-                    associationMarkup +
-                    '<img class=\'speaker-picture\' src=\'speaker/img/' + path + '\'>';
+                imageMarkup = '<div class=\'speaker col-sm-6 col-md-3\'>'
+                    + associationMarkup
+                    + '<img class=\'speaker-picture\' src=\'speaker/img/' + path + '\'>';
                 markup += imageMarkup + name + '</div>';
 
-                speakerInfoMarkup = '<div class=\'row speaker-expanded-bio\' id=\'speaker' + name.replace(' ','') + '\'>' +
-                    imageMarkup + '</div><div class=\'col-sm-6 col-md-9 speaker-expanded-text\'>'
+                speakerInfoMarkup = '<div class=\'row speaker-expanded-bio\'>'
+                    + '<span class=\"anchor\" id=\"' + anchor + '\"></span>'
+                    + imageMarkup + '</div><div class=\'col-sm-6 col-md-9 speaker-expanded-text\'>'
                     + '<div class=\'speaker-expanded-name\'>' + name + '</div>'
                     + '<div class=\'speaker-expanded-position\'>' + title + '</div>'
                     + bio + '</div></div>';

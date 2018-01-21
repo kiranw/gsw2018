@@ -8,10 +8,9 @@
     include('templates/nav-bar.php');
     include('templates/header.php');
 
-//    $scripts = "<script src=\"splash/js/d3.js\"></script>";
-
-    include('schedule.php');
+    include('templates/agenda.php');
     include('templates/location.php');
     include('templates/sponsors.php');
+    
     include('templates/footer.php');
 ?>

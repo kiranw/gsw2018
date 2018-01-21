@@ -87,7 +87,7 @@ img.top-background {
 }
 @media only screen and (min-width: 480px) {
     .section {
-        padding: 70px 15%;
+        padding: 40px 15%;
         font-size: 1.4em;
     }
 }
@@ -420,10 +420,11 @@ td:hover {
 }
 
 .partner-icon {
-    height: 150px;
+    height: 130px;
     display: inline-block;
     margin-right: 15px;
     float: right;
+    margin-top: 40px;
 }
 
 #partner-icons {
@@ -524,6 +525,10 @@ td:hover {
     background-color: transparent;
 }
 
+.navbar-default a:hover, .navbar-default a:focus {
+    font-size: 0.95em;
+}
+
 
 .navbar-default .navbar-nav>li>a {
     color: rgba(255,255,255,0.5);
@@ -566,6 +571,14 @@ td:hover {
 .dropdown-divider {
     border: 1px solid #2f3f5f;
     margin: 10px -8px;
+}
+
+/* Anchors */
+.anchor {
+  display: block;
+  height: 120px; /*same height as fixed .navbar */
+  margin-top: -120px; /*same height as fixed .navbar */
+  visibility: hidden;
 }
 
 .imgHeader{
@@ -665,9 +678,9 @@ td:hover {
     /*font-weight: 800;*/
 /*}*/
 
-/*.competition-type:hover, .competition-type:focus{*/
-    /*font-weight: 800;*/
-/*}*/
+.competition-type:hover, .competition-type:focus{
+    font-size: 0.95em;
+}
 
 
 @media only screen and (min-width: 480px) {
@@ -700,10 +713,23 @@ td:hover {
     font-weight: 300;
 }
 
+.competition-location {
+    font-size: 0.7em;
+    opacity: 0.9;
+}
+
+.competition-rules-link {
+    text-decoration: underline;
+}
+
+.competition-rules-link:hover {
+    text-decoration: underline;
+}
+
 .header-row {
     background-color: #efefef;
     margin-bottom: 5vh;
-    padding-bottom: 20px;
+    padding: 0px 20px 20px 20px;
 }
 
 .competition-text{
@@ -736,15 +762,6 @@ td:hover {
 }
 
 /* SPEAKER CSS */
-
-a.anchor {
-    display: block;
-    position: relative;
-    top: -250px;
-    visibility: hidden;
-}
-
-
 .speaker-picture {
     width: 90%;
     height: auto;
@@ -772,6 +789,8 @@ a.anchor {
 
 .speaker-expanded-text {
     font-size: 0.7em;
+    text-align: justify;
+    text-justify: inter-word;
 }
 
 .speaker-expanded-name {
@@ -847,16 +866,29 @@ a.anchor {
 }
 
 .team-association, .team-role{
+    margin-bottom: 3px;
+    color: #0e1e58;
+    font-size: 0.8em;
+    text-align: center;
+    font-weight: 200;
+    text-transform: uppercase;
+    letter-spacing: -0.2px;
+}
+
+.team-area {
     margin-bottom: 20px;
     color: #0e1e58;
     font-size: 0.9em;
     text-align: center;
-    font-weight: 300;
+    font-weight: 400;
 }
 
 .team-row, .team-expanded-bio {
-    margin-bottom: 40px;
-    margin-top: 80px;
+    margin-bottom: 30px;
+}
+
+.team-row h2 {
+    margin-bottom: 15px;
 }
 
 .team {
@@ -866,6 +898,8 @@ a.anchor {
 
 .team-expanded-text {
     font-size: 0.7em;
+    text-align: justify;
+    text-justify: inter-word;
 }
 
 .team-expanded-name {
