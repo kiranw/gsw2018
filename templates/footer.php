@@ -50,7 +50,7 @@
                 <p class="footer-title">Organization</p>
                 <a href="history.php">History</a><br>
                 <a href="team.php">Who we are</a><br>
-                <a href="sponsors.php">Sponsors</a><br>
+<!--                <a href="sponsors.php">Sponsors</a><br>-->
                 <a href="index.php#location">Venue</a><br>
             </div>
         </div>

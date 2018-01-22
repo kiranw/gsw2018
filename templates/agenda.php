@@ -36,15 +36,15 @@
                     </tr>
                 </thead>
                 <tr><td>Ideation</tr></td>
-                <tr><td>Market Segmentation</tr></td>
-                <tr><td>How to Pitch</tr></td>
-                <tr><td>Entrepreneurial Strategies</tr></td>
-                <tr><td>Prototyping</tr></td>
-                <tr><td>Networking</tr></td>
-                <tr><td>Leadership & Team Building</tr></td>
-                <tr><td>Entrepreneurial Finance</tr></td>
-                <tr><td>Scaling Your Business</tr></td>
                 <tr><td>Design Thinking</tr></td>
+                <tr><td>Prototyping</tr></td>
+                <tr><td>Leadership & Team Building</tr></td>
+                <tr><td>Networking</tr></td>
+                <tr><td>Market Segmentation</tr></td>
+                <tr><td>Entrepreneurial Finance: How to raise money?</tr></td>
+                <tr><td>Scaling Your Business</tr></td>
+                <tr><td>How to Pitch in 60s</tr></td>
+                <tr><td>Entrepreneurial Strategies: why do businesses fail?</tr></td>
             </table>
         </div>
     </div>
